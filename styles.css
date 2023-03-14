@@ -11,8 +11,7 @@
 }
 
 body{
-    background-color: aquamarine;
-
+    background-color:#263159;
   
 }
 
@@ -24,22 +23,24 @@ body{
     overflow-y: hidden;
     display: flex;
     flex-direction: row;
+    border-top: 8px solid brown;
+    border-bottom: 8px solid brown;
 }
 
 /* INTRO SECTION */
 
 .intro{
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     background: url("imgs/moon.png");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     display: flex;
     text-align: center;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: flex-start;
     position: relative;
     overflow-x: auto;
     overflow-y: hidden;
@@ -158,75 +159,93 @@ body{
     top: 6.66%;
     position: absolute;
     width: 100vw;
-    border: 3px solid white;
+    border: 1px solid white;
+    z-index: 15;
 }
 
 .hr-b{
     top: 23.32%;
     position: absolute;
     width: 100vw;
-    border: 3px solid white;
+    border: 1px solid white;
+    z-index: 15;
 }
 
 .hr-c{
     top: 39.98%;
     position: absolute;
     width: 100vw;
-    border: 3px solid white;
+    border: 1px solid white;
+    z-index: 15;
 }
 
 .hr-d{
     top: 56.64%;
     position: absolute;
     width: 100vw;
-    border: 3px solid white;
+    border: 1px solid white;
+    z-index: 15;
 }
 
 .hr-e{
     top: 73.3%;
     position: absolute;
     width: 100vw;
-    border: 3px solid white;
+    border: 1px solid white;
+    z-index: 15;
 }
 
 .hr-f{
     top: 90%;
     position: absolute;
-    width: 100vw;
-    border: 3px solid white;
+    width: 600vw;
+    border: 1px solid white;
+    z-index: 15;
 }
 
 .obsession-h1{
     width: 100%;
-    font-size: 3rem;
+    font-size: 2rem;
     font-family: var(--font-family-title);
     display: block;
     color: white;
     position: absolute;
+    top: 45%;
+    z-index: 20;
 }
 
 .tribute-p{
     width: 40%;
     left: 33%;
-    top: 14%;
-    font-size: 1.5rem;
+    top: 25%;
+    font-size: 1rem;
     line-height: 1.60;
     display: block;
     color: white;
     position: absolute;
     font-family: var(--font-family-title);
-    color: var(--black);
-    filter: drop-shadow(2px 4px 2px var(--white));
+    color: var(--white);
+    z-index: 20;
+}
+
+.initial-circle{
+    width: 15rem;
+    height: 20rem;
+    border-radius: 50%;
+    opacity: 0.8;
+    background-color: #000000;
+    z-index: 5;
+    margin-top: 7.5rem;
 }
 
 /* NEVER HEARD SECTION */
 
 .if-you-never-heard-section{
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     background: url("imgs/selfie.png");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     display: flex;
     text-align: center;
@@ -242,42 +261,42 @@ body{
     top: 6.66%;
     position: absolute;
     width: 20vw;
-    border: 3px solid white;
+    border: 1px solid white;
 }
 
 .hr-2{
     top: 23.32%;
     position: absolute;
     width: 20vw;
-    border: 3px solid white;
+    border: 1px solid white;
 }
 
 .hr-3{
     top: 39.98%;
     position: absolute;
     width: 20vw;
-    border: 3px solid white;
+    border: 1px solid white;
 }
 
 .hr-4{
     top: 56.64%;
     position: absolute;
     width: 20vw;
-    border: 3px solid white;
+    border: 1px solid white;
 }
 
 .hr-5{
     top: 73.3%;
     position: absolute;
     width: 20vw;
-    border: 3px solid white;
+    border: 1px solid white;
 }
 
 .hr-6{
     top: 90%;
     position: absolute;
     width: 20vw;
-    border: 3px solid white;
+    border: 1px solid white;
 }
 
 .never-heard-p{
@@ -314,10 +333,10 @@ body{
 
 .for-the-past-30-years-section{
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     background: url("imgs/ghost.png");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     display: flex;
     text-align: center;
@@ -361,10 +380,10 @@ body{
 
 .born-in-japan-section{
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     background: url("imgs/streets-of-japan.png");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     display: flex;
     text-align: center;
@@ -438,10 +457,10 @@ body{
 
 .aspire-to-perfection-section{
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     background: url("imgs/perfection.png");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     display: flex;
     text-align: center;
@@ -485,11 +504,11 @@ body{
 
 .monk-section{
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     background: url("imgs/monk.png");
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: right;
+    background-size: contain;
+    background-position: center;
     display: flex;
     text-align: center;
     flex-direction: column;
