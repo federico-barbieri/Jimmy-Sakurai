@@ -10,9 +10,16 @@
     font-size: 16px;
 }
 
+body{
+    background-color: aquamarine;
+
+  
+}
+
 #container{
-    width: 500vw;
-    height: 100vh;
+    width: 600vw;
+    height: 80vh;
+    margin-top: 10vh;
     overflow-x: auto;
     overflow-y: hidden;
     display: flex;
@@ -461,6 +468,53 @@
 }
 
 .exactly-like-the-band-p{
+    width: 60%;
+    left: 25%;
+    top: 50%;
+    font-size: 1.5rem;
+    line-height: 1.60;
+    display: block;
+    color: white;
+    position: absolute;
+    font-family: var(--font-family-title);
+    color: var(--white);
+    filter: drop-shadow(2px 4px 2px var(--black));  
+}
+
+/* MONK SECTION */
+
+.monk-section{
+    width: 100vw;
+    height: 100vh;
+    background: url("imgs/monk.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    position: relative;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.like-an-obsessed-monk-p{
+    width: 60%;
+    left: 25%;
+    top: 10%;
+    font-size: 1.5rem;
+    line-height: 1.60;
+    display: block;
+    color: white;
+    position: absolute;
+    font-family: var(--font-family-title);
+    color: var(--white);
+    filter: drop-shadow(2px 4px 2px var(--black));  
+}
+
+.pursuing-perfection-p{
     width: 60%;
     left: 25%;
     top: 50%;
