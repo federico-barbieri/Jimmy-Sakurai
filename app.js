@@ -17,74 +17,74 @@ let sound1 = document.querySelector('.audio-string1');
 
 // string 6
 
-string6.addEventListener('click', () =>{
+string6.addEventListener('click', function addString(e){
     sound6.play();
-    string6.classList.add('stringMoves6');
-    setTimeout(stopMoving6, 1300);
+    string6.classList.add('stringy6');
+    setTimeout(stopMoving6, 500);
 })
 
 function stopMoving6(){
-    string6.classList.remove('stringMoves6');
+    string6.classList.remove('stringy6');
 }
 
 // string 5
 
 string5.addEventListener('click', () =>{
     sound5.play();
-    string5.classList.toggle('stringMoves5');
-    setTimeout(stopMoving5, 1300);
+    string5.classList.toggle('stringy5');
+    setTimeout(stopMoving5, 500);
 })
 
 function stopMoving5(){
-    string5.classList.remove('stringMoves5');
+    string5.classList.remove('stringy5');
 }
 
 // string 4
 
 string4.addEventListener('click', () =>{
     sound4.play();
-    string4.classList.toggle('stringMoves4');
-    setTimeout(stopMoving4, 1300);
+    string4.classList.toggle('stringy4');
+    setTimeout(stopMoving4, 500);
 })
 
 function stopMoving4(){
-    string4.classList.remove('stringMoves4');
+    string4.classList.remove('stringy4');
 }
 
 // string 3
 
 string3.addEventListener('click', () =>{
     sound3.play();
-    string3.classList.toggle('stringMoves3');
-    setTimeout(stopMoving3, 1300);
+    string3.classList.toggle('stringy3');
+    setTimeout(stopMoving3, 500);
 })
 
 function stopMoving3(){
-    string3.classList.remove('stringMoves3');
+    string3.classList.remove('stringy3');
 }
 
 // string 2
 
 string2.addEventListener('click', () =>{
     sound2.play();
-    string2.classList.toggle('stringMoves2');
-    setTimeout(stopMoving2, 1300);
+    string2.classList.toggle('stringy2');
+    setTimeout(stopMoving2, 500);
 })
 
 function stopMoving2(){
-    string2.classList.remove('stringMoves2');
+    string2.classList.remove('stringy2');
 }
 
 // string 1
 
 string1.addEventListener('click', () =>{
     sound1.play();
-    string1.classList.toggle('stringMoves1');
-    setTimeout(stopMoving1, 1300);
+    string1.classList.toggle('stringy1');
+    setTimeout(stopMoving1, 500);
 })
 
 function stopMoving1(){
-    string1.classList.remove('stringMoves1');
+    string1.classList.remove('stringy1');
 }
 
 
