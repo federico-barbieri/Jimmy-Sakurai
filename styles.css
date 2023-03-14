@@ -11,7 +11,7 @@
 }
 
 #container{
-    width: 300vw;
+    width: 400vw;
     height: 100vh;
     overflow-x: auto;
     overflow-y: hidden;
@@ -241,5 +241,83 @@
     color: var(--white);
     filter: drop-shadow(2px 4px 2px var(--black));  
 }
+
+/* BORN IN JAPAN SECTION */
+
+.born-in-japan-section{
+    width: 100vw;
+    height: 100vh;
+    background: url("imgs/streets-of-japan.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    position: relative;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.ramen{
+    position: absolute;
+    width: 60vw;
+    height: auto;
+    left: 20%;
+    top: 30%;
+    animation: rotateRamen 4s ease-in infinite forwards;
+    z-index: 100;
+}
+
+.vinyl{
+    position: absolute;
+    width: 60vw;
+    height: auto;
+    left: 20%;
+    top: 30%;
+    animation: rotateVinyl 8s ease-in infinite forwards;
+    z-index: 99;
+}
+
+@keyframes rotateVinyl{
+    0% {opacity: 1; transform: rotateZ(0deg);}
+    100% {opacity: 1; transform: rotateZ(720deg);}
+}
+
+@keyframes rotateRamen{
+    0% {opacity: 1; transform: rotateZ(0deg);}
+    100% {opacity: 0; transform: rotateZ(360deg);}
+}
+
+.born-in-japan-p{
+    width: 60%;
+    left: 20%;
+    top: 10%;
+    font-size: 1.5rem;
+    line-height: 1.60;
+    display: block;
+    color: white;
+    position: absolute;
+    font-family: var(--font-family-title);
+    color: var(--white);
+    filter: drop-shadow(2px 4px 2px var(--black));  
+}
+
+.reborn-p{
+    width: 60%;
+    left: 20%;
+    top: 60%;
+    font-size: 1.5rem;
+    line-height: 1.60;
+    display: block;
+    color: white;
+    position: absolute;
+    font-family: var(--font-family-title);
+    color: var(--white);
+    filter: drop-shadow(2px 4px 2px var(--black));  
+}
+
 
 

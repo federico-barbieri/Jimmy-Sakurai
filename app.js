@@ -88,11 +88,17 @@ function stopMoving1(){
 }
 
 
-// grab japan circle and turn it into a vinyl
+////////////////
 
-//let japanCircle = document.querySelector('.japan');
+// ramen time
 
-//japanCircle.addEventListener('click', () =>{
+let count = 0;
 
- //   japanCircle.classList.add('rotates');
-//})
+const thirtyYearsSection = document.querySelector('.for-the-past-30-years-section');
+
+const ramen = document.querySelector('.ramen');
+
+thirtyYearsSection.addEventListener('click', () => {
+    count++;
+    ramen.classList.add('.assignRotation');
+})
