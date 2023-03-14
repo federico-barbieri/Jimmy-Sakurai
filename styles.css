@@ -17,14 +17,15 @@ body{
 
 #container{
     width: 600vw;
-    height: 80vh;
-    margin-top: 10vh;
+    height: 60vh;
+    margin-top: 20vh;
     overflow-x: auto;
     overflow-y: hidden;
     display: flex;
     flex-direction: row;
     border-top: 8px solid brown;
     border-bottom: 8px solid brown;
+    position: relative;
 }
 
 /* INTRO SECTION */
@@ -156,51 +157,57 @@ body{
 
 
 .hr-a{
-    top: 6.66%;
+    top: 25%;
     position: absolute;
-    width: 100vw;
-    border: 1px solid white;
+    width: 600vw;
+    border: 0.5px solid white;
     z-index: 15;
+    opacity: 0.2;
 }
 
 .hr-b{
-    top: 23.32%;
+    top: 35%;
     position: absolute;
-    width: 100vw;
-    border: 1px solid white;
+    width: 600vw;
+    border: 0.5px solid white;
     z-index: 15;
+    opacity: 0.2;
 }
 
 .hr-c{
-    top: 39.98%;
+    top: 45%;
     position: absolute;
-    width: 100vw;
-    border: 1px solid white;
+    width: 600vw;
+    border: 0.5px solid white;
     z-index: 15;
+    opacity: 0.2;
 }
 
 .hr-d{
-    top: 56.64%;
+    top: 55%;
     position: absolute;
-    width: 100vw;
-    border: 1px solid white;
+    width: 600vw;
+    border: 0.5px solid white;
     z-index: 15;
+    opacity: 0.2;
 }
 
 .hr-e{
-    top: 73.3%;
+    top: 65%;
     position: absolute;
-    width: 100vw;
-    border: 1px solid white;
+    width: 600vw;
+    border: 0.5px solid white;
     z-index: 15;
+    opacity: 0.2;
 }
 
 .hr-f{
-    top: 90%;
+    top: 75%;
     position: absolute;
     width: 600vw;
-    border: 1px solid white;
+    border: 0.5px solid white;
     z-index: 15;
+    opacity: 0.2;
 }
 
 .obsession-h1{
@@ -230,12 +237,12 @@ body{
 
 .initial-circle{
     width: 15rem;
-    height: 20rem;
+    height: 18rem;
     border-radius: 50%;
     opacity: 0.8;
     background-color: #000000;
     z-index: 5;
-    margin-top: 7.5rem;
+    margin-top: 4rem;
 }
 
 /* NEVER HEARD SECTION */
