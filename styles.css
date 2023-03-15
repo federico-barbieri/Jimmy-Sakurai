@@ -385,6 +385,7 @@ overflow-y: hidden;
     font-family: var(--font-family-text);
     color: var(--white);
     filter: drop-shadow(2px 4px 2px var(--black));  
+    top: 43%;
 }
 
 /* footsteps SECTION */
@@ -433,6 +434,7 @@ overflow-y: hidden;
     font-family: var(--font-family-text);
     color: var(--white);
     filter: drop-shadow(2px 4px 2px var(--black));  
+    top: 43%;
 }
 
 /* BORN SECTION */
@@ -501,7 +503,7 @@ overflow-y: hidden;
 
 .ramen{
     position: absolute;
-    width: 27vw;
+    width: 25vw;
     height: auto;
     animation: rotateRamen 4s ease-in-out infinite forwards;
     z-index: 100;
@@ -512,7 +514,7 @@ overflow-y: hidden;
 
 .vinyl{
     position: absolute;
-    width: 25vw;
+    width: 23vw;
     height: auto;
     animation: rotateVinyl 4s ease-in-out infinite forwards;
     z-index: 99;
@@ -538,7 +540,7 @@ overflow-y: hidden;
 /* REBORN SECTION */
 
 .reborn{
-    width: 30vw;
+    width: 55vw;
     height: 100%;
     display: flex;
     text-align: center;
@@ -553,6 +555,7 @@ overflow-y: hidden;
 
 .reborn-p{
     width: 100%;
+    padding-right: 5rem;
     font-size: 2rem;
     line-height: 1.60;
     display: block;
@@ -560,7 +563,8 @@ overflow-y: hidden;
     position: absolute;
     font-family: var(--font-family-text);
     color: var(--white);
-    filter: drop-shadow(2px 4px 2px var(--black));  
+    filter: drop-shadow(2px 4px 2px var(--black)); 
+    top: 43%; 
 }
 
 /* ASPIRE TO PERFECTION SECTION */
@@ -611,6 +615,7 @@ overflow-y: hidden;
     font-family: var(--font-family-text);
     color: var(--white);
     filter: drop-shadow(2px 4px 2px var(--black));  
+    top: 43%;
 }
 
 /* ANATOMY SECTION */
@@ -708,12 +713,13 @@ overflow-y: hidden;
     font-family: var(--font-family-text);
     color: var(--white);
     filter: drop-shadow(2px 4px 2px var(--black));  
+    top: 43%;
 }
 
 /* Maze SECTION */
 
 .maze{
-    width: 40vw;
+    width: 50vw;
     height: 100%;
     background: url("imgs/maze10.webp");
     background-repeat: no-repeat;
@@ -733,7 +739,7 @@ overflow-y: hidden;
 }
 
 .maze-txt{
-    width: 40vw;
+    width: 45vw;
     height: 100%;
     display: flex;
     text-align: center;
@@ -746,7 +752,7 @@ overflow-y: hidden;
 }
 
 .maze-txt-p{
-    width: 80%;
+    width: 100%;
     font-size: 2rem;
     line-height: 1.60;
     display: block;
