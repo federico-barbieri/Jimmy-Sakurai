@@ -20,7 +20,7 @@ body{
 
 
 #container{
-    width: 850vw;
+    width: 890vw;
     height: 45vh;
     margin-top: 25vh;
     overflow-x: auto;
@@ -28,7 +28,7 @@ body{
     display: flex;
     flex-direction: row;
     position: relative;
-    background-color: var(--dark-green);
+    background-color: transparent;
     filter: drop-shadow(10px 12px 10px black);
 
     border-radius: 30px;
@@ -80,7 +80,7 @@ body{
 
 
 .intro{
-    width: 35vw;
+    width: 50vw;
     height: 100%;
     background: url("imgs/moon.webp");
     background-repeat: no-repeat;
@@ -292,7 +292,7 @@ body{
 /* SELFIE SECTION */
 
 .selfie{
-    width: 30vw;
+    width: 50vw;
     height: 100%;
     background: url("imgs/selfie.webp");
     background-repeat: no-repeat;
@@ -341,7 +341,7 @@ overflow-y: hidden;
 /* ghost SECTION */
 
 .ghost{
-    width: 30vw;
+    width: 50vw;
     height: 100%;
     background: url("imgs/ghost.webp");
     background-repeat: no-repeat;
@@ -391,7 +391,7 @@ overflow-y: hidden;
 /* footsteps SECTION */
 
 .footsteps{
-    width: 30vw;
+    width: 50vw;
     height: 100%;
     background: url("imgs/footsteps.webp");
     background-repeat: no-repeat;
@@ -440,7 +440,7 @@ overflow-y: hidden;
 /* BORN SECTION */
 
 .born{
-    width: 30vw;
+    width: 50vw;
     height: 100%;
     background: url("imgs/streets-of-japan.webp");
     background-repeat: no-repeat;
@@ -489,7 +489,7 @@ overflow-y: hidden;
 /* BORN IN JAPAN SECTION */
 
 .born-in-japan-section{
-    width: 45vw;
+    width: 50vw;
     height: 100%;
     display: flex;
     text-align: center;
@@ -506,7 +506,7 @@ overflow-y: hidden;
     width: 25vw;
     height: auto;
     animation: rotateRamen 4s ease-in-out infinite forwards;
-    z-index: 100;
+    z-index: 2;
     left: 15%;
     filter: drop-shadow(2px 4px 2px black);
     border-radius: 10px;
@@ -517,7 +517,7 @@ overflow-y: hidden;
     width: 23vw;
     height: auto;
     animation: rotateVinyl 4s ease-in-out infinite forwards;
-    z-index: 99;
+    z-index: 1;
     left: 17%;
     filter: drop-shadow(2px 4px 2px black);
     border-radius: 10px;
@@ -571,7 +571,7 @@ overflow-y: hidden;
 
 
 .perfection{
-    width: 40vw;
+    width: 50vw;
     height: 100%;
     background: url("imgs/perfection.webp");
     background-repeat: no-repeat;
@@ -591,7 +591,7 @@ overflow-y: hidden;
 }
 
 .from-then-onwards-section{
-    width: 40vw;
+    width: 50vw;
     height: 100%;
     display: flex;
     text-align: center;
@@ -621,7 +621,7 @@ overflow-y: hidden;
 /* ANATOMY SECTION */
 
 .anatomy{
-    width: 30vw;
+    width: 50vw;
     height: 100%;
     background: url("imgs/anatomy.webp");
     background-repeat: no-repeat;
@@ -640,7 +640,7 @@ overflow-y: hidden;
 }
 
 .anatomy-text-section{
-    width: 30vw;
+    width: 40vw;
     height: 100%;
     display: flex;
     text-align: center;
@@ -669,7 +669,7 @@ overflow-y: hidden;
 /* MONK SECTION */
 
 .monk{
-    width: 30vw;
+    width: 50vw;
     height: 100%;
     background: url("imgs/monk.webp");
     background-repeat: no-repeat;
@@ -691,7 +691,7 @@ overflow-y: hidden;
 /* MONK TXT SECTION */
 
 .monk-txt{
-    width: 40vw;
+    width: 50vw;
     height: 100%;
     display: flex;
     text-align: center;
@@ -739,7 +739,7 @@ overflow-y: hidden;
 }
 
 .maze-txt{
-    width: 45vw;
+    width: 50vw;
     height: 100%;
     display: flex;
     text-align: center;
@@ -766,7 +766,7 @@ overflow-y: hidden;
 /* staircase SECTION */
 
 .staircase{
-    width: 40vw;
+    width: 50vw;
     height: 100%;
     background: url("imgs/stairs.webp");
     background-repeat: no-repeat;
@@ -786,7 +786,7 @@ overflow-y: hidden;
 }
 
 .staircase-text{
-    width: 40vw;
+    width: 50vw;
     height: 100%;
     display: flex;
     text-align: center;
@@ -799,7 +799,7 @@ overflow-y: hidden;
 }
 
 .staircase-p{
-    width: 80%;
+    width: 100%;
     font-size: 2rem;
     line-height: 1.60;
     display: block;
@@ -808,6 +808,7 @@ overflow-y: hidden;
     font-family: var(--font-family-text);
     color: var(--white);
     filter: drop-shadow(2px 4px 2px var(--black));  
+    top: 40%;
 }
 
 
