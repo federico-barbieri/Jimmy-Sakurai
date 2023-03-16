@@ -8,6 +8,7 @@
     --white: #ffffff;
     --black: #000000;
     --dark-green: #2C3333;
+    --red: #ce5135;
     --font-family-text: 'Noto Sans JP', sans-serif;
     font-size: 16px;
 }
@@ -20,7 +21,7 @@ body{
 
 
 #container{
-    width: 890vw;
+    width: 1000vw;
     height: 45vh;
     margin-top: 25vh;
     overflow-x: auto;
@@ -30,7 +31,7 @@ body{
     position: relative;
     background-color: transparent;
     filter: drop-shadow(10px 12px 10px black);
-
+    
     border-radius: 30px;
 }
 
@@ -50,20 +51,21 @@ body{
 }
 
 .obsession-h1{
-    font-size: 4.5rem;
+    font-size: 4rem;
     font-family: var(--font-family-title);
-    width: 30%;
-    color: white;
     position: absolute;
     width: 40%;
     z-index: 20;
     text-align: center;
     right: 10%;
     top: 38%;
+    color: var(--red);
+    opacity: 0.8;
 }
 
 .tribute-p{
     width: 25%;
+    top: 25%;
     left: 10%;
     bottom: 31%;
     font-size: 2.5rem;
@@ -210,7 +212,7 @@ body{
 .hr-a{
     top: 10%;
     position: absolute;
-    width: 850vw;
+    width: 960vw;
     border: 2px solid white;
     z-index: 100;
     opacity: 0.5;
@@ -219,7 +221,7 @@ body{
 .hr-b{
     top: 25%;
     position: absolute;
-    width: 850vw;
+    width: 960vw;
     border: 2px solid white;
     z-index: 100;
     opacity: 0.5;
@@ -228,7 +230,7 @@ body{
 .hr-c{
     top: 40%;
     position: absolute;
-    width: 850vw;
+    width: 960vw;
     border: 2px solid white;
     z-index: 100;
     opacity: 0.5;
@@ -237,7 +239,7 @@ body{
 .hr-d{
     top: 55%;
     position: absolute;
-    width: 850vw;
+    width: 960vw;
     border: 2px solid white;
     z-index: 100;
     opacity: 0.5;
@@ -246,7 +248,7 @@ body{
 .hr-e{
     top: 70%;
     position: absolute;
-    width:850vw;
+    width:960vw;
     border: 2px solid white;
     z-index: 100;
     opacity: 0.5;
@@ -255,7 +257,7 @@ body{
 .hr-f{
     top: 85%;
     position: absolute;
-    width: 850vw;
+    width: 960vw;
     border: 2px solid white;
     z-index: 100;
     opacity: 0.5;
@@ -280,13 +282,17 @@ body{
 .never-heard-p{
         width: 100%;
         font-size: 2rem;
-        line-height: 1.60;
+        line-height: 1.50;
         display: block;
         color: white;
         position: absolute;
         font-family: var(--font-family-text);
         color: var(--white);
         filter: drop-shadow(2px 4px 2px var(--black));   
+}
+
+.akio{
+    color: var(--red);
 }
 
 /* SELFIE SECTION */
@@ -313,7 +319,7 @@ body{
 /* DOES NOT EXIST SECTION */
 
 .does-not-exist-section{
-width: 40vw;
+width: 50vw;
 height: 100%;
 display: flex;
 text-align: center;
@@ -329,7 +335,7 @@ overflow-y: hidden;
 .does-not-exist-p{
     width: 100%;
     font-size: 2rem;
-    line-height: 1.60;
+    line-height: 1.50;
     display: block;
     color: white;
     position: absolute;
@@ -363,7 +369,7 @@ overflow-y: hidden;
 /* FOR THE PAST 30 YEARS SECTION */
 
 .for-the-past-30-years-section{
-    width: 30vw;
+    width: 60vw;
     height: 100%;
     display: flex;
     text-align: center;
@@ -386,6 +392,10 @@ overflow-y: hidden;
     color: var(--white);
     filter: drop-shadow(2px 4px 2px var(--black));  
     top: 43%;
+}
+
+.jimmy{
+    color: var(--red);
 }
 
 /* footsteps SECTION */
@@ -412,7 +422,7 @@ overflow-y: hidden;
 /* THOROUGH SECTION */
 
 .thorough{
-    width: 35vw;
+    width: 65vw;
     height: 100%;
     display: flex;
     text-align: center;
@@ -435,6 +445,11 @@ overflow-y: hidden;
     color: var(--white);
     filter: drop-shadow(2px 4px 2px var(--black));  
     top: 43%;
+}
+
+.thorough{
+    display: inline;
+    color: var(--red);
 }
 
 /* BORN SECTION */
@@ -462,7 +477,7 @@ overflow-y: hidden;
 /* IN JAPAN SECTION */
 
 .in-japan{
-    width: 30vw;
+    width: 60vw;
     height: 100%;
     display: flex;
     text-align: center;
@@ -541,7 +556,7 @@ overflow-y: hidden;
 /* REBORN SECTION */
 
 .reborn{
-    width: 55vw;
+    width: 80vw;
     height: 100%;
     display: flex;
     text-align: center;
@@ -566,6 +581,11 @@ overflow-y: hidden;
     color: var(--white);
     filter: drop-shadow(2px 4px 2px var(--black)); 
     top: 43%; 
+}
+
+.reborn-color{
+    display: inline;
+    color: var(--red);
 }
 
 /* ASPIRE TO PERFECTION SECTION */
@@ -609,7 +629,7 @@ overflow-y: hidden;
 .from-then-onwards-p{
     width: 100%;
     font-size: 2rem;
-    line-height: 1.60;
+    line-height: 1.75;
     display: block;
     color: white;
     position: absolute;
@@ -617,6 +637,11 @@ overflow-y: hidden;
     color: var(--white);
     filter: drop-shadow(2px 4px 2px var(--black));  
     top: 43%;
+}
+
+.exactly{
+    display: inline;
+    color: var(--red);
 }
 
 /* ANATOMY SECTION */
@@ -665,6 +690,11 @@ overflow-y: hidden;
     font-family: var(--font-family-text);
     color: var(--white);
     filter: drop-shadow(2px 4px 2px var(--black)); 
+}
+
+.micro{
+    display: inline;
+    color: var(--red);
 }
 
 /* MONK SECTION */
@@ -717,6 +747,11 @@ overflow-y: hidden;
     top: 43%;
 }
 
+.obsessed{
+    display: inline;
+    color: var(--red);
+}
+
 /* Maze SECTION */
 
 .maze{
@@ -762,6 +797,11 @@ overflow-y: hidden;
     font-family: var(--font-family-text);
     color: var(--white);
     filter: drop-shadow(2px 4px 2px var(--black));  
+}
+
+.too-far{
+    display: inline;
+    color: var(--red);
 }
 
 /* staircase SECTION */
@@ -810,6 +850,11 @@ overflow-y: hidden;
     color: var(--white);
     filter: drop-shadow(2px 4px 2px var(--black));  
     top: 40%;
+}
+
+.enough{
+    display: inline;
+    color: var(--red);
 }
 
 
