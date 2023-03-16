@@ -99,17 +99,17 @@ body{
 }
 
 @keyframes moveString6{
-    0%{top: 6.66%;}
-    10%{top: 7.5%;}
-    20%{top: 6.66%;}
-    30%{top: 6%;}
-    40%{top: 6.66%;}
-    50%{top: 7%;}
-    60%{top: 6.66%;}
-    70%{top: 6.30%;}
-    80%{top: 6.66%;}
-    90%{top: 6.80%;}
-    100%{top: 6.66%;}
+    0%{top: 10%;}
+    10%{top: 12%;}
+    20%{top: 10%;}
+    30%{top: 8%;}
+    40%{top: 10%;}
+    50%{top: 11.5%;}
+    60%{top: 10%;}
+    70%{top: 8.5%;}
+    80%{top: 10%;}
+    90%{top: 11%;}
+    100%{top: 10%;}
 }
 
 .stringy6{
@@ -117,17 +117,17 @@ body{
 }
 
 @keyframes moveString5{
-    0%{top: 23.32%;}
-    10%{top: 24%;}
-    20%{top: 23.32%;}
-    30%{top: 22.9%;}
-    40%{top: 23.32%;}
-    50%{top: 23.9%;}
-    60%{top: 23.32%;}
-    70%{top: 23%;}
-    80%{top: 23.32%;}
-    90%{top: 23.7%;}
-    100%{top: 23.32%;}
+    0%{top: 25%;}
+    10%{top: 27%;}
+    20%{top: 25%;}
+    30%{top: 23%;}
+    40%{top: 25%;}
+    50%{top: 26.5%;}
+    60%{top: 25%;}
+    70%{top: 23.5%;}
+    80%{top: 25%;}
+    90%{top: 26%;}
+    100%{top: 25%;}
 }
 
 .stringy5{
@@ -135,17 +135,17 @@ body{
 }
 
 @keyframes moveString4{
-    0%{top: 39.98%;}
-    10%{top: 40.5%;}
-    20%{top: 39.98%;}
-    30%{top: 39%;}
-    40%{top: 39.98%;}
-    50%{top: 40.3%;}
-    60%{top: 39.98%;}
-    70%{top: 39.20%;}
-    80%{top: 39.98%;}
-    90%{top: 40.2%;}
-    100%{top: 39.98%;}
+    0%{top: 40%;}
+    10%{top: 42%;}
+    20%{top: 40%;}
+    30%{top: 38%;}
+    40%{top: 40%;}
+    50%{top: 41.5%;}
+    60%{top: 40%;}
+    70%{top: 38.5%;}
+    80%{top: 40%;}
+    90%{top: 41%;}
+    100%{top: 40%;}
 }
 
 .stringy4{
@@ -153,17 +153,17 @@ body{
 }
 
 @keyframes moveString3{
-    0%{top: 56.64%;}
-    10%{top: 57.5%;}
-    20%{top: 56.64%;}
-    30%{top: 56%;}
-    40%{top: 56.64%;}
-    50%{top: 57.1%;}
-    60%{top: 56.64%;}
-    70%{top: 56.20%;}
-    80%{top: 56.64%;}
-    90%{top: 56.9%;}
-    100%{top: 56.64%;}
+    0%{top: 55%;}
+    10%{top: 57%;}
+    20%{top: 55%;}
+    30%{top: 53%;}
+    40%{top: 55%;}
+    50%{top: 56.5%;}
+    60%{top: 55%;}
+    70%{top: 53.5%;}
+    80%{top: 55%;}
+    90%{top: 56%;}
+    100%{top: 55%;}
 }
 
 .stringy3{
@@ -171,17 +171,17 @@ body{
 }
 
 @keyframes moveString2{
-    0%{top: 73.3%;}
-    10%{top: 74%;}
-    20%{top: 73.3%;}
-    30%{top: 72.8%;}
-    40%{top: 73.3%;}
-    50%{top: 73.8%;}
-    60%{top: 73.3%;}
-    70%{top: 73%;}
-    80%{top: 73.3%;}
-    90%{top: 73.6%;}
-    100%{top: 73.3%;}
+    0%{top: 70%;}
+    10%{top: 72%;}
+    20%{top: 70%;}
+    30%{top: 68%;}
+    40%{top: 70%;}
+    50%{top: 71.5%;}
+    60%{top: 70%;}
+    70%{top: 68.5%;}
+    80%{top: 70%;}
+    90%{top: 71%;}
+    100%{top: 70%;}
 }
 
 .stringy2{
@@ -189,17 +189,17 @@ body{
 }
 
 @keyframes moveString1{
-    0%{top: 90%;}
-    10%{top: 91%;}
-    20%{top: 90%;}
-    30%{top: 89%;}
-    40%{top: 90%;}
-    50%{top: 90.8%;}
-    60%{top: 90%;}
-    70%{top: 89.20%;}
-    80%{top: 90%;}
-    90%{top: 90.6%;}
-    100%{top: 90%;}
+    0%{top: 85%;}
+    10%{top: 87%;}
+    20%{top: 85%;}
+    30%{top: 83%;}
+    40%{top: 85%;}
+    50%{top: 86.5%;}
+    60%{top: 85%;}
+    70%{top: 83.5%;}
+    80%{top: 85%;}
+    90%{top: 86%;}
+    100%{top: 85%;}
 }
 
 .stringy1{
@@ -211,54 +211,54 @@ body{
     top: 10%;
     position: absolute;
     width: 850vw;
-    border: 1px solid white;
-    z-index: 15;
-    opacity: 0.2;
+    border: 2px solid white;
+    z-index: 100;
+    opacity: 0.5;
 }
 
 .hr-b{
     top: 25%;
     position: absolute;
     width: 850vw;
-    border: 1px solid white;
-    z-index: 15;
-    opacity: 0.2;
+    border: 2px solid white;
+    z-index: 100;
+    opacity: 0.5;
 }
 
 .hr-c{
     top: 40%;
     position: absolute;
     width: 850vw;
-    border: 1px solid white;
-    z-index: 15;
-    opacity: 0.2;
+    border: 2px solid white;
+    z-index: 100;
+    opacity: 0.5;
 }
 
 .hr-d{
     top: 55%;
     position: absolute;
     width: 850vw;
-    border: 1px solid white;
-    z-index: 15;
-    opacity: 0.2;
+    border: 2px solid white;
+    z-index: 100;
+    opacity: 0.5;
 }
 
 .hr-e{
     top: 70%;
     position: absolute;
     width:850vw;
-    border: 1px solid white;
-    z-index: 15;
-    opacity: 0.2;
+    border: 2px solid white;
+    z-index: 100;
+    opacity: 0.5;
 }
 
 .hr-f{
     top: 85%;
     position: absolute;
     width: 850vw;
-    border: 1px solid white;
-    z-index: 15;
-    opacity: 0.2;
+    border: 2px solid white;
+    z-index: 100;
+    opacity: 0.5;
 }
 
 /* NEVER HEARD SECTION */
@@ -510,6 +510,7 @@ overflow-y: hidden;
     left: 15%;
     filter: drop-shadow(2px 4px 2px black);
     border-radius: 10px;
+    
 }
 
 .vinyl{
@@ -768,7 +769,7 @@ overflow-y: hidden;
 .staircase{
     width: 50vw;
     height: 100%;
-    background: url("imgs/stairs.webp");
+    background: url("imgs/heaven.webp");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
