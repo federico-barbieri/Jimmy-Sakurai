@@ -164,12 +164,9 @@ body{
 }
 
 @media only screen and (max-width: 350px){
-    #container{
-        width: 1300vw;
-        height: 45vh;
-    }
+    
     .intro-text{
-        width: 100vw;
+        width: 120vw;
     }
     .tribute-p{
         width: 100%;
@@ -251,7 +248,7 @@ body{
 
 @media only screen and (max-width: 350px){
     .intro{
-        width: 120vw;
+        width: 150vw;
         height: 100%;
         background: url("imgs/moon.webp");
         background-repeat: no-repeat;
@@ -575,7 +572,7 @@ body{
 
 @media only screen and (max-width: 350px){
     .if-you-never-heard-section{
-        width: 120vw;
+        width: 160vw;
         height: 100%;
         display: flex;
         text-align: center;
@@ -837,45 +834,13 @@ overflow-y: hidden;
     
     .selfie{
         width: 110vw;
-        height: 100%;
-        background: url("imgs/selfie.webp");
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: center;
-        display: flex;
-        text-align: center;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: space-around;
-        position: relative;
-        overflow-x: auto;
-        overflow-y: hidden;
-        filter: drop-shadow(2px 4px 2px black);
-        border-radius: 10px;
     }
     .does-not-exist-section{
         width: 90vw;
-        height: 100%;
-        display: flex;
-        text-align: center;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: space-around;
-        position: relative;
-        overflow-x: auto;
-        overflow-y: hidden;
     }
         
         .does-not-exist-p{
-            width: 100%;
             font-size: 1rem;
-            line-height: 1.50;
-            display: block;
-            color: white;
-            position: absolute;
-            font-family: var(--font-family-text);
-            color: var(--white);
-            filter: drop-shadow(2px 4px 2px var(--black)); 
             top: 43%;
         }
 }
@@ -883,27 +848,10 @@ overflow-y: hidden;
 @media only screen and (max-width: 400px){
     .does-not-exist-section{
         width: 110vw;
-        height: 100%;
-        display: flex;
-        text-align: center;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: space-around;
-        position: relative;
-        overflow-x: auto;
-        overflow-y: hidden;
     }
         
         .does-not-exist-p{
-            width: 100%;
             font-size: 1rem;
-            line-height: 1.50;
-            display: block;
-            color: white;
-            position: absolute;
-            font-family: var(--font-family-text);
-            color: var(--white);
-            filter: drop-shadow(2px 4px 2px var(--black)); 
             top: 43%;
         }
 }
@@ -912,8 +860,11 @@ overflow-y: hidden;
     #container{
         width: 1500vw;
     }
+    .selfie{
+        width: 170vw;
+    }
     .does-not-exist-section{
-        width: 130vw;
+        width: 150vw;
         height: 100%;
         display: flex;
         text-align: center;
@@ -1175,15 +1126,15 @@ overflow-y: hidden;
     }
 }
 
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 350px){
     .ghost{
-        width: 120vw;
+        width: 170vw;
     }
     
     /* FOR THE PAST 30 YEARS SECTION */
     
     .for-the-past-30-years-section{
-        width: 140vw;
+        width: 170vw;
     }
     
     .for-the-past-30-years-p{
@@ -1245,7 +1196,127 @@ overflow-y: hidden;
     top: 43%;
 }
 
-.thorough{
+@media only screen and (max-width: 1400px){
+    .footsteps{
+        width: 50vw;
+    }
+    
+    .thorough{
+        width: 90vw;
+    }
+    
+    .the-most-thorough-imitator-p{
+        font-size: 2rem;
+        top: 41%;
+    }
+}
+
+@media only screen and (max-width: 1200px){
+    .footsteps{
+        width: 50vw;
+    }
+    
+    .thorough{
+        width: 90vw;
+    }
+    
+    .the-most-thorough-imitator-p{
+        font-size: 1.5rem;
+        top: 41%;
+    }
+}
+
+@media only screen and (max-width: 1200px){
+    .footsteps{
+        width: 70vw;
+    }
+    
+    .thorough{
+        width: 100vw;
+    }
+    
+    .the-most-thorough-imitator-p{
+        font-size: 1.5rem;
+        top: 41%;
+    }
+}
+
+@media only screen and (max-width: 850px){
+    .footsteps{
+        width: 90vw;
+    }
+    
+    .thorough{
+        width: 120vw;
+    }
+    
+    .the-most-thorough-imitator-p{
+        font-size: 1.5rem;
+        top: 41%;
+    }
+}
+
+@media only screen and (max-width: 750px){
+    .footsteps{
+        width: 100vw;
+    }
+    
+    .thorough{
+        width: 120vw;
+    }
+    
+    .the-most-thorough-imitator-p{
+        font-size: 1rem;
+        top: 43%;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .footsteps{
+        width: 120vw;
+    }
+    
+    .thorough{
+        width: 130vw;
+    }
+    
+    .the-most-thorough-imitator-p{
+        font-size: 1rem;
+        top: 43%;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .footsteps{
+        width: 130vw;
+    }
+    
+    .thorough{
+        width: 150vw;
+    }
+    
+    .the-most-thorough-imitator-p{
+        font-size: 1rem;
+        top: 43%;
+    }
+}
+
+@media only screen and (max-width: 350px){
+    .footsteps{
+        width: 170vw;
+    }
+    
+    .thorough{
+        width: 180vw;
+    }
+    
+    .the-most-thorough-imitator-p{
+        font-size: 1rem;
+        top: 43%;
+    }
+}
+
+.thorough-color{
     display: inline;
     color: var(--red);
 }
@@ -1297,6 +1368,82 @@ overflow-y: hidden;
     font-family: var(--font-family-text);
     color: var(--white);
     filter: drop-shadow(2px 4px 2px var(--black));  
+}
+
+@media only screen and (max-width: 1200px){
+    .born-in-japan-p{
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    .born{
+        width: 80vw;
+    }
+    
+    .in-japan{
+        width: 60vw;
+    }
+    
+    .born-in-japan-p{
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    .born{
+        width: 100vw;
+    }
+    
+    .in-japan{
+        width: 80vw;
+    }
+    
+    .born-in-japan-p{
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 750px){
+    .born{
+        width: 110vw;
+    }
+    
+    .in-japan{
+        width: 90vw;
+    }
+    
+    .born-in-japan-p{
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .born{
+        width: 130vw;
+    }
+    
+    .in-japan{
+        width: 90vw;
+    }
+    
+    .born-in-japan-p{
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 350px){
+    .born{
+        width: 170vw;
+    }
+    
+    .in-japan{
+        width: 110vw;
+    }
+    
+    .born-in-japan-p{
+        font-size: 1rem;
+    }
 }
 
 /* BORN IN JAPAN SECTION */
@@ -1351,6 +1498,48 @@ overflow-y: hidden;
 
 }
 
+@media only screen and (max-width: 800px){
+    .born-in-japan-section{
+        width: 70vw;
+    }
+    
+    .ramen{
+        width: 30vw;        
+    }
+    
+    .vinyl{
+        width: 28vw;
+    }
+}
+
+@media only screen and (max-width: 700px){
+    .born-in-japan-section{
+        width: 100vw;
+    }
+    
+    .ramen{
+        width: 40vw;        
+    }
+    
+    .vinyl{
+        width: 37vw;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .born-in-japan-section{
+        width: 140vw;
+    }
+    
+    .ramen{
+        width: 63vw;        
+    }
+    
+    .vinyl{
+        width: 60vw;
+    }
+}
+
 /* REBORN SECTION */
 
 .reborn{
@@ -1369,7 +1558,6 @@ overflow-y: hidden;
 
 .reborn-p{
     width: 100%;
-    padding-right: 5rem;
     font-size: 2rem;
     line-height: 1.60;
     display: block;
@@ -1379,6 +1567,103 @@ overflow-y: hidden;
     color: var(--white);
     filter: drop-shadow(2px 4px 2px var(--black)); 
     top: 43%; 
+}
+
+@media only screen and (max-width: 1400px){
+    .reborn{
+        width: 110vw;
+    }
+    
+    .reborn-p{
+        width: 100%;
+        font-size: 2rem;
+        top: 41%; 
+    }
+}
+
+@media only screen and (max-width: 1200px){
+    .reborn-p{
+        width: 100%;
+        font-size: 1.5rem;
+        top: 43%; 
+    }
+}
+
+@media only screen and (max-width: 900px){
+    .reborn{
+        width: 130vw;
+    }
+    
+    .reborn-p{
+        width: 100%;
+        font-size: 1.5rem;
+        top: 41%; 
+    }
+}
+
+.reborn-color{
+    display: inline;
+    color: var(--red);
+}
+
+@media only screen and (max-width: 800px){
+    .reborn{
+        width: 150vw;
+    }
+    
+    .reborn-p{
+        width: 100%;
+        font-size: 1.5rem;
+        top: 41%; 
+    }
+}
+
+@media only screen and (max-width: 750px){
+    .reborn{
+        width: 150vw;
+    }
+    
+    .reborn-p{
+        width: 100%;
+        font-size: 1rem;
+        top: 43%; 
+    }
+}
+
+@media only screen and (max-width: 550px){
+    .reborn{
+        width: 170vw;
+    }
+    
+    .reborn-p{
+        width: 100%;
+        font-size: 1rem;
+        top: 43%; 
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .reborn{
+        width: 190vw;
+    }
+    
+    .reborn-p{
+        width: 100%;
+        font-size: 1rem;
+        top: 43%; 
+    }
+}
+
+@media only screen and (max-width: 350px){
+    .reborn{
+        width: 220vw;
+    }
+    
+    .reborn-p{
+        width: 100%;
+        font-size: 1rem;
+        top: 43%; 
+    }
 }
 
 .reborn-color{
@@ -1437,6 +1722,181 @@ overflow-y: hidden;
     top: 43%;
 }
 
+@media only screen and (max-width: 1400px){
+    .perfection{
+        width: 50vw;
+    }
+    
+    .from-then-onwards-section{
+        width: 50vw;
+    }
+        
+    .from-then-onwards-p{
+        font-size: 2rem;
+        top: 25%;
+        line-height: 1.50;
+    }
+}
+
+@media only screen and (max-width: 1200px){
+    .perfection{
+        width: 80vw;
+    }
+    
+    .from-then-onwards-section{
+        width: 60vw;
+    }
+        
+    .from-then-onwards-p{
+        font-size: 1.5rem;
+        top: 45%;
+        line-height: 1.50;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    .perfection{
+        width: 90vw;
+    }
+    
+    .from-then-onwards-section{
+        width: 100vw;
+        margin-right: 10vw;
+    }
+        
+    .from-then-onwards-p{
+        font-size: 1.5rem;
+        top: 45%;
+        line-height: 1.50;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .perfection{
+        width: 100vw;
+        margin-right: 5vw;
+    }
+    
+    .from-then-onwards-section{
+        width: 120vw;
+        margin-right: 10vw;
+    }
+        
+    .from-then-onwards-p{
+        font-size: 1.5rem;
+        top: 45%;
+        line-height: 1.50;
+    }
+}
+
+@media only screen and (max-width: 750px){
+    .perfection{
+        width: 110vw;
+        margin-right: 5vw;
+    }
+    
+    .from-then-onwards-section{
+        width: 160vw;
+        margin-right: 15vw;
+    }
+        
+    .from-then-onwards-p{
+        font-size: 1rem;
+        top: 45%;
+        line-height: 1.50;
+    }
+}
+
+@media only screen and (max-width: 700px){
+    .perfection{
+        width: 130vw;
+        margin-right: 5vw;
+    }
+    
+    .from-then-onwards-section{
+        width: 180vw;
+        margin-right: 15vw;
+    }
+        
+    .from-then-onwards-p{
+        font-size: 1rem;
+        top: 45%;
+        line-height: 1.50;
+    }
+}
+
+@media only screen and (max-width: 650px){
+    .perfection{
+        width: 140vw;
+        margin-right: 5vw;
+    }
+    
+    .from-then-onwards-section{
+        width: 200vw;
+        margin-right: 15vw;
+    }
+        
+    .from-then-onwards-p{
+        font-size: 1rem;
+        top: 45%;
+        line-height: 1.50;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .perfection{
+        width: 140vw;
+        margin-right: 5vw;
+    }
+    
+    .from-then-onwards-section{
+        width: 250vw;
+        margin-right: 15vw;
+    }
+        
+    .from-then-onwards-p{
+        font-size: 1rem;
+        top: 45%;
+        line-height: 1.50;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .perfection{
+        width: 170vw;
+        margin-right: 5vw;
+    }
+    
+    .from-then-onwards-section{
+        width: 300vw;
+        margin-right: 15vw;
+    }
+        
+    .from-then-onwards-p{
+        font-size: 1rem;
+        top: 45%;
+        line-height: 1.50;
+    }
+}
+
+@media only screen and (max-width: 350px){
+    .perfection{
+        width: 200vw;
+        margin-right: 5vw;
+    }
+    
+    .from-then-onwards-section{
+        width: 370vw;
+        margin-right: 15vw;
+    }
+        
+    .from-then-onwards-p{
+        font-size: 1rem;
+        top: 45%;
+        line-height: 1.50;
+    }
+}
+
 .exactly{
     display: inline;
     color: var(--red);
@@ -1488,6 +1948,118 @@ overflow-y: hidden;
     font-family: var(--font-family-text);
     color: var(--white);
     filter: drop-shadow(2px 4px 2px var(--black)); 
+}
+
+@media only screen and (max-width: 1400px){
+    .anatomy{
+        width: 50vw;
+    }
+    
+    .anatomy-text-section{
+        width: 60vw;
+    }
+    
+    .anatomy-text{
+        font-size: 2rem;
+        top: 40%;
+        margin-right: 10vw;
+    }
+}
+
+@media only screen and (max-width: 1200px){
+    .anatomy{
+        width: 70vw;
+    }
+    
+    .anatomy-text-section{
+        width: 60vw;
+    }
+    
+    .anatomy-text{
+        font-size: 1.5rem;
+        top: 41%;
+        margin-right: 10vw;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    .anatomy{
+        width: 70vw;
+    }
+    
+    .anatomy-text-section{
+        width: 100vw;
+    }
+    
+    .anatomy-text{
+        font-size: 1.5rem;
+        top: 41%;
+        margin-right: 10vw;
+    }
+}
+
+@media only screen and (max-width: 750px){
+    .anatomy{
+        width: 90vw;
+    }
+    
+    .anatomy-text-section{
+        width: 120vw;
+    }
+    
+    .anatomy-text{
+        font-size: 1rem;
+        top: 45%;
+        margin-right: 10vw;
+    }
+}
+
+@media only screen and (max-width: 650px){
+    .anatomy{
+        width: 120vw;
+    }
+    
+    .anatomy-text-section{
+        width: 120vw;
+    }
+    
+    .anatomy-text{
+        font-size: 1rem;
+        top: 45%;
+        margin-right: 10vw;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    .anatomy{
+        width: 150vw;
+    }
+    
+    .anatomy-text-section{
+        width: 150vw;
+    }
+    
+    .anatomy-text{
+        font-size: 1rem;
+        top: 45%;
+        margin-right: 10vw;
+    }
+}
+
+@media only screen and (max-width: 350px){
+    .anatomy{
+        width: 200vw;
+    }
+    
+    .anatomy-text-section{
+        width: 200vw;
+    }
+    
+    .anatomy-text{
+        font-size: 1rem;
+        top: 45%;
+        margin-right: 10vw;
+    }
 }
 
 .micro{
@@ -1545,6 +2117,132 @@ overflow-y: hidden;
     top: 43%;
 }
 
+@media only screen and (max-width: 1400px){
+    .monk{
+        width: 50vw;
+    }
+    
+    /* MONK TXT SECTION */
+    
+    .monk-txt{
+        width: 80vw;
+    }
+    
+    .like-an-obsessed-monk-p{
+        width: 70%;
+        font-size: 2rem; 
+        top: 40%;
+    }
+}
+
+@media only screen and (max-width: 1200px){
+    .monk{
+        width: 70vw;
+    }
+    
+    /* MONK TXT SECTION */
+    
+    .monk-txt{
+        width: 80vw;
+    }
+    
+    .like-an-obsessed-monk-p{
+        width: 70%;
+        font-size: 1.5rem; 
+        top: 44%;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    .monk{
+        width: 90vw;
+    }
+    
+    /* MONK TXT SECTION */
+    
+    .monk-txt{
+        width: 110vw;
+    }
+    
+    .like-an-obsessed-monk-p{
+        width: 70%;
+        font-size: 1.5rem; 
+        top: 44%;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .monk{
+        width: 120vw;
+    }
+    
+    /* MONK TXT SECTION */
+    
+    .monk-txt{
+        width: 150vw;
+    }
+    
+    .like-an-obsessed-monk-p{
+        width: 100%;
+        font-size: 1rem; 
+        top: 44%;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .monk{
+        width: 170vw;
+    }
+    
+    /* MONK TXT SECTION */
+    
+    .monk-txt{
+        width: 200vw;
+    }
+    
+    .like-an-obsessed-monk-p{
+        width: 100%;
+        font-size: 1rem; 
+        top: 44%;
+    }
+}
+
+@media only screen and (max-width: 401px){
+    .monk{
+        width: 200vw;
+    }
+    
+    /* MONK TXT SECTION */
+    
+    .monk-txt{
+        width: 280vw;
+    }
+    
+    .like-an-obsessed-monk-p{
+        width: 100%;
+        font-size: 1rem; 
+        top: 44%;
+    }
+}
+
+@media only screen and (max-width: 350px){
+    .monk{
+        width: 250vw;
+    }
+    
+    /* MONK TXT SECTION */
+    
+    .monk-txt{
+        width: 320vw;
+    }
+    
+    .like-an-obsessed-monk-p{
+        width: 100%;
+        font-size: 1rem; 
+        top: 44%;
+    }
+}
+
 .obsessed{
     display: inline;
     color: var(--red);
@@ -1595,6 +2293,167 @@ overflow-y: hidden;
     font-family: var(--font-family-text);
     color: var(--white);
     filter: drop-shadow(2px 4px 2px var(--black));  
+}
+
+@media only screen and (max-width: 1400px){
+    .maze{
+        width: 50vw;
+    }
+    
+    .maze-txt{
+        width: 50vw;
+    }
+    
+    .maze-txt-p{
+        width: 80%;
+        font-size: 2rem;
+        line-height: 1.60;
+        top: 40%;
+    }
+}
+
+@media only screen and (max-width: 1200px){
+    .maze{
+        width: 70vw;
+    }
+    
+    .maze-txt{
+        width: 80vw;
+    }
+    
+    .maze-txt-p{
+        width: 100%;
+        font-size: 1.5rem;
+        line-height: 1.60;
+        top: 43%;
+        margin-right: 10vw;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    .maze{
+        width: 100vw;
+    }
+    
+    .maze-txt{
+        width: 110vw;
+    }
+    
+    .maze-txt-p{
+        width: 100%;
+        font-size: 1.5rem;
+        line-height: 1.60;
+        top: 43%;
+        margin-right: 10vw;
+    }
+}
+
+@media only screen and (max-width: 900px){
+    .maze{
+        width: 110vw;
+    }
+    
+    .maze-txt{
+        width: 150vw;
+    }
+    
+    .maze-txt-p{
+        width: 100%;
+        font-size: 1.5rem;
+        line-height: 1.60;
+        top: 43%;
+        margin-right: 10vw;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .maze{
+        width: 110vw;
+    }
+    
+    .maze-txt{
+        width: 200vw;
+    }
+    
+    .maze-txt-p{
+        width: 100%;
+        font-size: 1.5rem;
+        line-height: 1.60;
+        top: 43%;
+        margin-right: 10vw;
+    }
+}
+
+@media only screen and (max-width: 750px){
+    .maze{
+        width: 130vw;
+    }
+    
+    .maze-txt{
+        width: 200vw;
+    }
+    
+    .maze-txt-p{
+        width: 100%;
+        font-size: 1rem;
+        line-height: 1.60;
+        top: 43%;
+        margin-right: 10vw;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .maze{
+        width: 200vw;
+    }
+    
+    .maze-txt{
+        width: 230vw;
+    }
+    
+    .maze-txt-p{
+        width: 100%;
+        font-size: 1rem;
+        line-height: 1.60;
+        top: 43%;
+        margin-right: 10vw;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .maze{
+        width: 250vw;
+    }
+    
+    .maze-txt{
+        width: 280vw;
+    }
+    
+    .maze-txt-p{
+        width: 100%;
+        font-size: 1rem;
+        line-height: 1.60;
+        top: 43%;
+        margin-right: 10vw;
+    }
+}
+
+@media only screen and (max-width: 350px){
+    .maze{
+        width: 300vw;
+    }
+    
+    .maze-txt{
+        width: 320vw;
+    }
+    
+    .maze-txt-p{
+        width: 100%;
+        font-size: 1rem;
+        line-height: 1.60;
+        top: 43%;
+        margin-right: 10vw;
+    }
 }
 
 .too-far{
