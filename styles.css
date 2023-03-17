@@ -17,11 +17,8 @@ body{
     background-color:#263159;
 }
 
-
-
-
 #container{
-    width: 1000vw;
+    width: 1900vw;
     height: 45vh;
     margin-top: 25vh;
     overflow-x: auto;
@@ -68,7 +65,7 @@ body{
     bottom: 44%;
     font-size: 2.5rem;
     line-height: 1.6;
-   text-align: center;
+    text-align: center;
     color: white;
     position: absolute;
     font-family: var(--font-family-title);
@@ -76,242 +73,27 @@ body{
     z-index: 20;
 }
 
-@media only screen and (min-width: 1401px) and (max-width: 1500px){
-    .tribute-p{
-        width: 25%;
-        left: 10%;
-        bottom: 42%;
-        font-size: 2rem;
-    }
-    .obsession-h1{
-        font-size: 3rem;
-    }
-}
+/* MOON SECTION */
 
-@media only screen and (max-width: 1400px){
-    .tribute-p{
-        width: 25%;
-        left: 10%;
-        bottom: 28%;
-        font-size: 2rem;
-    }
-    .obsession-h1{
-        font-size: 3rem;
-    }
-}
-
-@media only screen and (max-width: 1100px){
-    .intro-text{
-        width: 80vw;
-    }
-    .tribute-p{
-        width: 30%;
-        left: 10%;
-        bottom: 34%;
-
-        font-size: 1.5rem;
-    }
-    .obsession-h1{
-        font-size: 2.5rem;
-        top: 40%;
-    }
-}
-
-@media only screen and (max-width: 1000px){
-    .intro-text{
-        width: 200vw;
-    }
-    .tribute-p{
-        width: 30%;
-        left: 10%;
-        bottom: 32%;
-
-        font-size: 1.5rem;
-    }
-    .obsession-h1{
-        font-size: 2.5rem;
-        top: 40%;
-    }
-}
-
-@media only screen and (max-width: 850px){
-    .intro-text{
-        width: 300vw;
-    }
-    .tribute-p{
-        width: 100%;
-        left: 0%;
-        bottom: 75%;
-
-        font-size: 1.5rem;
-    }
-    .obsession-h1{
-        font-size: 2.5rem;
-        top: 40%;
-        left: 30%;
-    }
-}
-
-@media only screen and (max-width: 600px){
-    .intro-text{
-        width: 350vw;
-    }
-    .tribute-p{
-        width: 100%;
-        left: 0%;
-        bottom: 77%;
-
-        font-size: 1rem;
-    }
-    .obsession-h1{
-        font-size: 2rem;
-        top: 42%;
-        left: 30%;
-    }
-}
-
-@media only screen and (max-width: 500px){
-    
-    .intro-text{
-        width: 400vw;
-    }
-    .tribute-p{
-        width: 100%;
-        left: 0%;
-        bottom: 77%;
-
-        font-size: 1rem;
-    }
-    .obsession-h1{
-        font-size: 2rem;
-        top: 42%;
-        left: 28%;
-    }
-}
-
-@media only screen and (max-width: 350px){
-    
-    .intro-text{
-        width: 400vw;
-    }
-    .tribute-p{
-        width: 100%;
-        left: 0%;
-        bottom: 77%;
-
-        font-size: 1rem;
-    }
-    .obsession-h1{
-        font-size: 2rem;
-        top: 42%;
-        left: 23%;
-    }
-}
-
-/* INTRO SECTION */
-
-
-.intro{
-    width: 50vw;
+.moon-section{
+    width: 70vw;
     height: 100%;
-    background: url("imgs/moon.webp");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
     display: flex;
     text-align: center;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    position: relative;
+    align-items: center;
+    justify-content: center;
     overflow-x: auto;
     overflow-y: hidden;
+    margin: 0 10vw;
+}
+
+.moon{
+    width: 50%;
+    height: auto;
     filter: drop-shadow(2px 4px 2px black);
-    border-radius: 10px;
-}
+    border-radius: 30px;
 
-@media only screen and (max-width: 1000px){
-    .intro{
-        width: 150vw;
-        height: 100%;
-        background: url("imgs/moon.webp");
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: center;
-        display: flex;
-        text-align: center;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: flex-start;
-        position: relative;
-        overflow-x: auto;
-        overflow-y: hidden;
-        filter: drop-shadow(2px 4px 2px black);
-        border-radius: 10px;
-    }
-}
-
-@media only screen and (max-width: 700px){
-    .intro{
-        width: 200vw;
-        height: 100%;
-        background: url("imgs/moon.webp");
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: center;
-        display: flex;
-        text-align: center;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: flex-start;
-        position: relative;
-        overflow-x: auto;
-        overflow-y: hidden;
-        filter: drop-shadow(2px 4px 2px black);
-        border-radius: 10px;
-    }
-}
-
-@media only screen and (max-width: 500px){
-    .intro{
-        width: 350vw;
-        height: 100%;
-        background: url("imgs/moon.webp");
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: center;
-        display: flex;
-        text-align: center;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: flex-start;
-        position: relative;
-        overflow-x: auto;
-        overflow-y: hidden;
-        filter: drop-shadow(2px 4px 2px black);
-        border-radius: 10px;
-    }
-}
-
-@media only screen and (max-width: 350px){
-    .intro{
-        width: 500vw;
-        height: 100%;
-        background: url("imgs/moon.webp");
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: center;
-        display: flex;
-        text-align: center;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: flex-start;
-        position: relative;
-        overflow-x: auto;
-        overflow-y: hidden;
-        filter: drop-shadow(2px 4px 2px black);
-        border-radius: 10px;
-    }
 }
 
 @keyframes moveString6{
@@ -426,7 +208,7 @@ body{
 .hr-a{
     top: 10%;
     position: absolute;
-    width: 960vw;
+    width: 1820vw;
     border: 2px solid white;
     z-index: 100;
     opacity: 0.5;
@@ -435,7 +217,7 @@ body{
 .hr-b{
     top: 25%;
     position: absolute;
-    width: 960vw;
+    width: 1820vw;
     border: 2px solid white;
     z-index: 100;
     opacity: 0.5;
@@ -444,7 +226,7 @@ body{
 .hr-c{
     top: 40%;
     position: absolute;
-    width: 960vw;
+    width: 1820vw;
     border: 2px solid white;
     z-index: 100;
     opacity: 0.5;
@@ -453,7 +235,7 @@ body{
 .hr-d{
     top: 55%;
     position: absolute;
-    width: 960vw;
+    width: 1820vw;
     border: 2px solid white;
     z-index: 100;
     opacity: 0.5;
@@ -462,7 +244,7 @@ body{
 .hr-e{
     top: 70%;
     position: absolute;
-    width:960vw;
+    width:1820vw;
     border: 2px solid white;
     z-index: 100;
     opacity: 0.5;
@@ -471,106 +253,26 @@ body{
 .hr-f{
     top: 85%;
     position: absolute;
-    width: 960vw;
+    width: 1820vw;
     border: 2px solid white;
     z-index: 100;
     opacity: 0.5;
 }
 
-/* MEDIA QUERIES FOR STRINGS */
-
-@media only screen and (max-width: 1400px){
-    .hr-a{
-        width: 930vw;
-    }
-    
-    .hr-b{
-        width: 930vw;
-    }
-    
-    .hr-c{
-        width: 930vw;
-    }
-    
-    .hr-d{
-        width: 930vw;
-    }
-    
-    .hr-e{
-        width:930vw;
-    }
-    
-    .hr-f{
-        width: 930vw;
-    }
-}
-
-@media only screen and (max-width: 1000px){
-    .hr-a{
-        width: 940vw;
-    }
-    
-    .hr-b{
-        width: 940vw;
-    }
-    
-    .hr-c{
-        width: 940vw;
-    }
-    
-    .hr-d{
-        width: 940vw;
-    }
-    
-    .hr-e{
-        width:940vw;
-    }
-    
-    .hr-f{
-        width: 940vw;
-    }
-}
-
-@media only screen and (max-width: 850px){
-    .hr-a{
-        width: 960vw;
-    }
-    
-    .hr-b{
-        width: 960vw;
-    }
-    
-    .hr-c{
-        width: 960vw;
-    }
-    
-    .hr-d{
-        width: 960vw;
-    }
-    
-    .hr-e{
-        width:960vw;
-    }
-    
-    .hr-f{
-        width: 960vw;
-    }
-}
-
 /* NEVER HEARD SECTION */
 
 .if-you-never-heard-section{
-    width: 50vw;
+    width: 80vw;
     height: 100%;
     display: flex;
     text-align: center;
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-around;
-    position: relative;
     overflow-x: auto;
     overflow-y: hidden;
     border-left: 10px solid white;
+    margin: 0 5vw 0 0vw;
 }
 
 .never-heard-p{
@@ -579,296 +281,10 @@ body{
         line-height: 1.50;
         display: block;
         color: white;
-        position: absolute;
         font-family: var(--font-family-text);
         color: var(--white);
         filter: drop-shadow(2px 4px 2px var(--black));   
         top: 42%;
-}
-
-@media only screen and (min-width: 1401px) and (max-width: 1500px){
-    .if-you-never-heard-section{
-        width: 100vw;
-        height: 100%;
-        display: flex;
-        text-align: center;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: space-around;
-        position: relative;
-        overflow-x: auto;
-        overflow-y: hidden;
-        border-left: 10px solid white;
-    }
-    
-    .never-heard-p{
-            width: 100%;
-            font-size: 2rem;
-            line-height: 1.50;
-            display: block;
-            color: white;
-            position: absolute;
-            font-family: var(--font-family-text);
-            color: var(--white);
-            filter: drop-shadow(2px 4px 2px var(--black));   
-            top: 42%;
-    }
-}
-
-@media only screen and (max-width: 1400px){
-    .if-you-never-heard-section{
-        width: 150vw;
-        height: 100%;
-        display: flex;
-        text-align: center;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: space-around;
-        position: relative;
-        overflow-x: auto;
-        overflow-y: hidden;
-        border-left: 10px solid white;
-    }
-    
-    .never-heard-p{
-            width: 100%;
-            font-size: 2rem;
-            line-height: 1.50;
-            display: block;
-            color: white;
-            position: absolute;
-            font-family: var(--font-family-text);
-            color: var(--white);
-            filter: drop-shadow(2px 4px 2px var(--black));   
-    }
-}
-
-@media only screen and (max-width: 1200px){
-    .if-you-never-heard-section{
-        width: 150vw;
-        height: 100%;
-        display: flex;
-        text-align: center;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: space-around;
-        position: relative;
-        overflow-x: auto;
-        overflow-y: hidden;
-        border-left: 10px solid white;
-    }
-    
-    .never-heard-p{
-            width: 100%;
-            font-size: 1.5rem;
-            line-height: 1.50;
-            display: block;
-            color: white;
-            position: absolute;
-            font-family: var(--font-family-text);
-            color: var(--white);
-            filter: drop-shadow(2px 4px 2px var(--black));   
-    }
-}
-
-@media only screen and (max-width: 1000px){
-    .if-you-never-heard-section{
-        width: 180vw;
-        height: 100%;
-        display: flex;
-        text-align: center;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: space-around;
-        position: relative;
-        overflow-x: auto;
-        overflow-y: hidden;
-        border-left: 10px solid white;
-    }
-    
-    .never-heard-p{
-            width: 100%;
-            font-size: 1.5rem;
-            line-height: 1.50;
-            display: block;
-            color: white;
-            position: absolute;
-            font-family: var(--font-family-text);
-            color: var(--white);
-            filter: drop-shadow(2px 4px 2px var(--black));   
-    }
-}
-
-@media only screen and (max-width: 850px){
-    .if-you-never-heard-section{
-        width: 200vw;
-        height: 100%;
-        display: flex;
-        text-align: center;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: space-around;
-        position: relative;
-        overflow-x: auto;
-        overflow-y: hidden;
-        border-left: 10px solid white;
-    }
-    
-    .never-heard-p{
-            width: 100%;
-            font-size: 1.5rem;
-            line-height: 1.50;
-            display: block;
-            color: white;
-            position: absolute;
-            font-family: var(--font-family-text);
-            color: var(--white);
-            filter: drop-shadow(2px 4px 2px var(--black));   
-    }
-}
-
-@media only screen and (max-width: 750px){
-    .if-you-never-heard-section{
-        width: 250vw;
-        height: 100%;
-        display: flex;
-        text-align: center;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: space-around;
-        position: relative;
-        overflow-x: auto;
-        overflow-y: hidden;
-        border-left: 10px solid white;
-    }
-    
-    .never-heard-p{
-            width: 100%;
-            font-size: 1rem;
-            line-height: 1.50;
-            display: block;
-            color: white;
-            position: absolute;
-            font-family: var(--font-family-text);
-            color: var(--white);
-            filter: drop-shadow(2px 4px 2px var(--black));   
-            top: 45%;
-    }
-}
-
-@media only screen and (max-width: 550px){
-    .if-you-never-heard-section{
-        width: 300vw;
-        height: 100%;
-        display: flex;
-        text-align: center;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: space-around;
-        position: relative;
-        overflow-x: auto;
-        overflow-y: hidden;
-        border-left: 10px solid white;
-    }
-    
-    .never-heard-p{
-            width: 100%;
-            font-size: 1rem;
-            line-height: 1.50;
-            display: block;
-            color: white;
-            position: absolute;
-            font-family: var(--font-family-text);
-            color: var(--white);
-            filter: drop-shadow(2px 4px 2px var(--black));   
-            top: 45%;
-    }
-}
-
-@media only screen and (max-width: 500px){
-    .if-you-never-heard-section{
-        width: 400vw;
-        height: 100%;
-        display: flex;
-        text-align: center;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: space-around;
-        position: relative;
-        overflow-x: auto;
-        overflow-y: hidden;
-        border-left: 10px solid white;
-    }
-    
-    .never-heard-p{
-            width: 100%;
-            font-size: 1rem;
-            line-height: 1.50;
-            display: block;
-            color: white;
-            position: absolute;
-            font-family: var(--font-family-text);
-            color: var(--white);
-            filter: drop-shadow(2px 4px 2px var(--black));   
-            top: 45%;
-    }
-}
-
-@media only screen and (max-width: 400px){
-    .if-you-never-heard-section{
-        width: 450vw;
-        height: 100%;
-        display: flex;
-        text-align: center;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: space-around;
-        position: relative;
-        overflow-x: auto;
-        overflow-y: hidden;
-        border-left: 10px solid white;
-    }
-    
-    .never-heard-p{
-            width: 100%;
-            font-size: 1rem;
-            line-height: 1.50;
-            display: block;
-            color: white;
-            position: absolute;
-            font-family: var(--font-family-text);
-            color: var(--white);
-            filter: drop-shadow(2px 4px 2px var(--black));   
-            top: 45%;
-    }
-}
-
-@media only screen and (max-width: 350px){
-    .if-you-never-heard-section{
-        width: 500vw;
-        height: 100%;
-        display: flex;
-        text-align: center;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: space-around;
-        position: relative;
-        overflow-x: auto;
-        overflow-y: hidden;
-        border-left: 10px solid white;
-    }
-    
-    .never-heard-p{
-            width: 100%;
-            font-size: 1rem;
-            line-height: 1.50;
-            display: block;
-            color: white;
-            position: absolute;
-            font-family: var(--font-family-text);
-            color: var(--white);
-            filter: drop-shadow(2px 4px 2px var(--black));   
-    }
 }
 
 .akio{
@@ -877,37 +293,40 @@ body{
 
 /* SELFIE SECTION */
 
-.selfie{
-    width: 50vw;
+.selfie-section{
+    width: 70vw;
     height: 100%;
-    background: url("imgs/selfie.webp");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-x: auto;
+    overflow-y: hidden;
+    margin: 0 5vw;
+}
+
+.selfie{
+    width: 50%;
+    height: auto;
+    filter: drop-shadow(2px 4px 2px black);
+    border-radius: 30px;
+}
+
+/* DOES NOT EXIST SECTION */
+
+.does-not-exist-section{
+    width: 80vw;
+    height: 100%;
     display: flex;
     text-align: center;
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-around;
-    position: relative;
     overflow-x: auto;
     overflow-y: hidden;
-    filter: drop-shadow(2px 4px 2px black);
-    border-radius: 10px;
-}
-/* DOES NOT EXIST SECTION */
-
-.does-not-exist-section{
-width: 50vw;
-height: 100%;
-display: flex;
-text-align: center;
-flex-direction: column;
-align-items: flex-start;
-justify-content: space-around;
-position: relative;
-overflow-x: auto;
-overflow-y: hidden;
+    border-right: 10px solid white;
+    margin: 0 5vw 0 5vw;
 }
 
 .does-not-exist-p{
@@ -916,627 +335,58 @@ overflow-y: hidden;
     line-height: 1.50;
     display: block;
     color: white;
-    position: absolute;
     font-family: var(--font-family-text);
     color: var(--white);
-    filter: drop-shadow(2px 4px 2px var(--black)); 
-    top: 42%;
+    filter: drop-shadow(2px 4px 2px var(--black));   
 }
-
-@media only screen and (min-width: 1401px) and (max-width: 1500px){
-    .does-not-exist-section{
-        width: 80vw;
-        height: 100%;
-        display: flex;
-        text-align: center;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: space-around;
-        position: relative;
-        overflow-x: auto;
-        overflow-y: hidden;
-        }
-        
-        .does-not-exist-p{
-            width: 100%;
-            font-size: 2rem;
-            line-height: 1.50;
-            display: block;
-            color: white;
-            position: absolute;
-            font-family: var(--font-family-text);
-            color: var(--white);
-            filter: drop-shadow(2px 4px 2px var(--black)); 
-            top: 42%;
-        }
-}
-
-@media only screen and (max-width: 1400px){
-    .does-not-exist-section{
-        width: 100vw;
-        height: 100%;
-        display: flex;
-        text-align: center;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: space-around;
-        position: relative;
-        overflow-x: auto;
-        overflow-y: hidden;
-        }
-        
-        .does-not-exist-p{
-            width: 100%;
-            font-size: 2rem;
-            line-height: 1.50;
-            display: block;
-            color: white;
-            position: absolute;
-            font-family: var(--font-family-text);
-            color: var(--white);
-            filter: drop-shadow(2px 4px 2px var(--black)); 
-            top: 40%;
-        }
-}
-
-@media only screen and (max-width: 1200px){
-    .does-not-exist-section{
-        width: 120vw;
-        height: 100%;
-        display: flex;
-        text-align: center;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: space-around;
-        position: relative;
-        overflow-x: auto;
-        overflow-y: hidden;
-        }
-        
-        .does-not-exist-p{
-            width: 100%;
-            font-size: 1.5rem;
-            line-height: 1.50;
-            display: block;
-            color: white;
-            position: absolute;
-            font-family: var(--font-family-text);
-            color: var(--white);
-            filter: drop-shadow(2px 4px 2px var(--black)); 
-            top: 42%;
-        }
-}
-
-@media only screen and (max-width: 1000px){
-    .selfie{
-        width: 100vw;
-        height: 100%;
-        background: url("imgs/selfie.webp");
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: center;
-        display: flex;
-        text-align: center;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: space-around;
-        position: relative;
-        overflow-x: auto;
-        overflow-y: hidden;
-        filter: drop-shadow(2px 4px 2px black);
-        border-radius: 10px;
-    }
-    .does-not-exist-section{
-        width: 150vw;
-        height: 100%;
-        display: flex;
-        text-align: center;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: space-around;
-        position: relative;
-        overflow-x: auto;
-        overflow-y: hidden;
-        }
-        
-        .does-not-exist-p{
-            width: 100%;
-            font-size: 1.5rem;
-            line-height: 1.50;
-            display: block;
-            color: white;
-            position: absolute;
-            font-family: var(--font-family-text);
-            color: var(--white);
-            filter: drop-shadow(2px 4px 2px var(--black)); 
-            top: 42%;
-        }
-}
-
-@media only screen and (max-width: 900px){
-    .does-not-exist-section{
-        width: 180vw;
-        height: 100%;
-        display: flex;
-        text-align: center;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: space-around;
-        position: relative;
-        overflow-x: auto;
-        overflow-y: hidden;
-        }
-        
-        .does-not-exist-p{
-            width: 100%;
-            font-size: 1.5rem;
-            line-height: 1.50;
-            display: block;
-            color: white;
-            position: absolute;
-            font-family: var(--font-family-text);
-            color: var(--white);
-            filter: drop-shadow(2px 4px 2px var(--black)); 
-            top: 42%;
-        }
-}
-
-@media only screen and(max-width: 850px){
-    .selfie{
-        width: 150vw;
-        height: 100%;
-        background: url("imgs/selfie.webp");
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: center;
-        display: flex;
-        text-align: center;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: space-around;
-        position: relative;
-        overflow-x: auto;
-        overflow-y: hidden;
-        filter: drop-shadow(2px 4px 2px black);
-        border-radius: 10px;
-    }
-    .does-not-exist-section{
-        width: 250vw;
-        height: 100%;
-        display: flex;
-        text-align: center;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: space-around;
-        position: relative;
-        overflow-x: auto;
-        overflow-y: hidden;
-        
-        }
-        
-        .does-not-exist-p{
-            width: 100%;
-            font-size: 1.5rem;
-            line-height: 1.50;
-            display: block;
-            color: white;
-            position: absolute;
-            font-family: var(--font-family-text);
-            color: var(--white);
-            filter: drop-shadow(2px 4px 2px var(--black)); 
-            top: 42%;
-            border: 2px solid red;
-        }
-   
-}
-
-@media only screen and(max-width: 800px){
-    .selfie{
-        width: 200vw;
-        height: 100%;
-        background: url("imgs/selfie.webp");
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: center;
-        display: flex;
-        text-align: center;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: space-around;
-        position: relative;
-        overflow-x: auto;
-        overflow-y: hidden;
-        filter: drop-shadow(2px 4px 2px black);
-        border-radius: 10px;
-    }
-    .does-not-exist-section{
-        width: 250vw;
-        height: 100%;
-        display: flex;
-        text-align: center;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: space-around;
-        position: relative;
-        overflow-x: auto;
-        overflow-y: hidden;
-        
-        }
-        
-        .does-not-exist-p{
-            width: 100%;
-            font-size: 1.5rem;
-            line-height: 1.50;
-            display: block;
-            color: white;
-            position: absolute;
-            font-family: var(--font-family-text);
-            color: var(--white);
-            filter: drop-shadow(2px 4px 2px var(--black)); 
-            top: 42%;
-            border: 2px solid red;
-        }
-   
-}
-
-@media only screen and (max-width: 750px){
-    
-    .selfie{
-        width: 100vw;
-        height: 100%;
-        background: url("imgs/selfie.webp");
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: center;
-        display: flex;
-        text-align: center;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: space-around;
-        position: relative;
-        overflow-x: auto;
-        overflow-y: hidden;
-        filter: drop-shadow(2px 4px 2px black);
-        border-radius: 10px;
-    }
-    .does-not-exist-section{
-        width: 80vw;
-        height: 100%;
-        display: flex;
-        text-align: center;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: space-around;
-        position: relative;
-        overflow-x: auto;
-        overflow-y: hidden;
-    }
-        
-        .does-not-exist-p{
-            width: 100%;
-            font-size: 1rem;
-            line-height: 1.50;
-            display: block;
-            color: white;
-            position: absolute;
-            font-family: var(--font-family-text);
-            color: var(--white);
-            filter: drop-shadow(2px 4px 2px var(--black)); 
-            top: 43%;
-        }
-}
-
-@media only screen and (max-width: 700px){
-    
-    .selfie{
-        width: 110vw;
-    }
-    .does-not-exist-section{
-        width: 90vw;
-    }
-        
-        .does-not-exist-p{
-            font-size: 1rem;
-            top: 43%;
-        }
-}
-
-@media only screen and (max-width: 400px){
-    .does-not-exist-section{
-        width: 110vw;
-    }
-        
-        .does-not-exist-p{
-            font-size: 1rem;
-            top: 43%;
-        }
-}
-
-@media only screen and (max-width: 350px){
-    #container{
-        width: 1500vw;
-    }
-    .selfie{
-        width: 170vw;
-    }
-    .does-not-exist-section{
-        width: 150vw;
-        height: 100%;
-        display: flex;
-        text-align: center;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: space-around;
-        position: relative;
-        overflow-x: auto;
-        overflow-y: hidden;
-    }
-        
-        .does-not-exist-p{
-            width: 100%;
-            font-size: 1rem;
-            line-height: 1.50;
-            display: block;
-            color: white;
-            position: absolute;
-            font-family: var(--font-family-text);
-            color: var(--white);
-            filter: drop-shadow(2px 4px 2px var(--black)); 
-            top: 43%;
-        }
-}
-
 
 /* ghost SECTION */
 
-.ghost{
-    width: 50vw;
+.ghost-section{
+    width: 70vw;
     height: 100%;
-    background: url("imgs/ghost.webp");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
     display: flex;
     text-align: center;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-around;
-    position: relative;
+    align-items: center;
+    justify-content: center;
     overflow-x: auto;
     overflow-y: hidden;
+    margin: 0 5vw;
+}
+
+.ghost{
+    width: 50%;
+    height: auto;
     filter: drop-shadow(2px 4px 2px black);
-    border-radius: 10px;
-    border-left: 10px solid white;
+    border-radius: 30px;
 }
 
 /* FOR THE PAST 30 YEARS SECTION */
 
 .for-the-past-30-years-section{
-    width: 60vw;
+    width: 80vw;
     height: 100%;
     display: flex;
     text-align: center;
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-around;
-    position: relative;
     overflow-x: auto;
     overflow-y: hidden;
+    margin: 0 5vw 0 5vw;
 }
 
 .for-the-past-30-years-p{
     width: 100%;
     font-size: 2rem;
-    line-height: 1.60;
+    line-height: 1.50;
     display: block;
     color: white;
-    position: absolute;
     font-family: var(--font-family-text);
     color: var(--white);
-    filter: drop-shadow(2px 4px 2px var(--black));  
+    filter: drop-shadow(2px 4px 2px var(--black));   
     top: 42%;
-}
-
-@media only screen and (max-width: 1400px){
-    .ghost{
-        width: 50vw;
-        height: 100%;
-        background: url("imgs/ghost.webp");
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: center;
-        display: flex;
-        text-align: center;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: space-around;
-        position: relative;
-        overflow-x: auto;
-        overflow-y: hidden;
-        filter: drop-shadow(2px 4px 2px black);
-        border-radius: 10px;
-        border-left: 10px solid white;
-    }
-    
-    /* FOR THE PAST 30 YEARS SECTION */
-    
-    .for-the-past-30-years-section{
-        width: 80vw;
-        height: 100%;
-        display: flex;
-        text-align: center;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: space-around;
-        position: relative;
-        overflow-x: auto;
-        overflow-y: hidden;
-    }
-    
-    .for-the-past-30-years-p{
-        width: 100%;
-        font-size: 2rem;
-        line-height: 1.60;
-        display: block;
-        color: white;
-        position: absolute;
-        font-family: var(--font-family-text);
-        color: var(--white);
-        filter: drop-shadow(2px 4px 2px var(--black));  
-        top: 41%;
-    }
-}
-
-@media only screen and (max-width: 1200px){
-    .ghost{
-        width: 50vw;
-        height: 100%;
-        background: url("imgs/ghost.webp");
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: center;
-        display: flex;
-        text-align: center;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: space-around;
-        position: relative;
-        overflow-x: auto;
-        overflow-y: hidden;
-        filter: drop-shadow(2px 4px 2px black);
-        border-radius: 10px;
-        border-left: 10px solid white;
-    }
-    
-    /* FOR THE PAST 30 YEARS SECTION */
-    
-    .for-the-past-30-years-section{
-        width: 80vw;
-    }
-    
-    .for-the-past-30-years-p{
-        font-size: 1.5rem;
-        top: 41%;
-    }
-}
-
-@media only screen and (max-width: 1000px){
-    .ghost{
-        width: 70vw;
-    }
-    
-    /* FOR THE PAST 30 YEARS SECTION */
-    
-    .for-the-past-30-years-section{
-        width: 90vw;
-    }
-    
-    .for-the-past-30-years-p{
-        font-size: 1.5rem;
-        top: 41%;
-    }
-}
-
-@media only screen and (max-width: 900px){
-    .ghost{
-        width: 80vw;
-    }
-    
-    /* FOR THE PAST 30 YEARS SECTION */
-    
-    .for-the-past-30-years-section{
-        width: 110vw;
-    }
-    
-    .for-the-past-30-years-p{
-        font-size: 1.5rem;
-        top: 41%;
-    }
-}
-
-@media only screen and (max-width: 800px){
-    .ghost{
-        width: 90vw;
-    }
-    
-    /* FOR THE PAST 30 YEARS SECTION */
-    
-    .for-the-past-30-years-section{
-        width: 120vw;
-    }
-    
-    .for-the-past-30-years-p{
-        font-size: 1.5rem;
-        top: 41%;
-    }
-}
-
-@media only screen and (max-width: 750px){
-    .ghost{
-        width: 90vw;
-    }
-    
-    /* FOR THE PAST 30 YEARS SECTION */
-    
-    .for-the-past-30-years-section{
-        width: 120vw;
-    }
-    
-    .for-the-past-30-years-p{
-        font-size: 1rem;
-        top: 43%;
-    }
-}
-
-@media only screen and (max-width: 600px){
-    .ghost{
-        width: 110vw;
-    }
-    
-    /* FOR THE PAST 30 YEARS SECTION */
-    
-    .for-the-past-30-years-section{
-        width: 120vw;
-    }
-    
-    .for-the-past-30-years-p{
-        font-size: 1rem;
-        top: 43%;
-    }
-}
-
-@media only screen and (max-width: 400px){
-    .ghost{
-        width: 120vw;
-    }
-    
-    /* FOR THE PAST 30 YEARS SECTION */
-    
-    .for-the-past-30-years-section{
-        width: 120vw;
-    }
-    
-    .for-the-past-30-years-p{
-        font-size: 1rem;
-        top: 43%;
-    }
-}
-
-@media only screen and (max-width: 350px){
-    .ghost{
-        width: 170vw;
-    }
-    
-    /* FOR THE PAST 30 YEARS SECTION */
-    
-    .for-the-past-30-years-section{
-        width: 170vw;
-    }
-    
-    .for-the-past-30-years-p{
-        font-size: 1rem;
-        top: 43%;
-    }
 }
 
 .jimmy{
@@ -1545,171 +395,52 @@ overflow-y: hidden;
 
 /* footsteps SECTION */
 
-.footsteps{
-    width: 50vw;
+.footsteps-section{
+    width: 70vw;
     height: 100%;
-    background: url("imgs/footsteps.webp");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
     display: flex;
     text-align: center;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-around;
-    position: relative;
+    align-items: center;
+    justify-content: center;
     overflow-x: auto;
     overflow-y: hidden;
+    margin: 0 5vw;
+}
+
+.footsteps{
+    width: 50%;
+    height: auto;
     filter: drop-shadow(2px 4px 2px black);
-    border-radius: 10px;
+    border-radius: 30px;
 }
 
 /* THOROUGH SECTION */
 
 .thorough{
-    width: 65vw;
+    width: 80vw;
     height: 100%;
     display: flex;
     text-align: center;
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-around;
-    position: relative;
     overflow-x: auto;
     overflow-y: hidden;
+    border-right: 10px solid white;
+    margin: 0 5vw 0 5vw;
 }
 
 .the-most-thorough-imitator-p{
     width: 100%;
     font-size: 2rem;
-    line-height: 1.60;
+    line-height: 1.50;
     display: block;
     color: white;
-    position: absolute;
     font-family: var(--font-family-text);
     color: var(--white);
-    filter: drop-shadow(2px 4px 2px var(--black));  
-    top: 42%;
-}
+    filter: drop-shadow(2px 4px 2px var(--black));   
 
-@media only screen and (max-width: 1400px){
-    .footsteps{
-        width: 50vw;
-    }
-    
-    .thorough{
-        width: 90vw;
-    }
-    
-    .the-most-thorough-imitator-p{
-        font-size: 2rem;
-        top: 41%;
-    }
-}
-
-@media only screen and (max-width: 1200px){
-    .footsteps{
-        width: 50vw;
-    }
-    
-    .thorough{
-        width: 90vw;
-    }
-    
-    .the-most-thorough-imitator-p{
-        font-size: 1.5rem;
-        top: 41%;
-    }
-}
-
-@media only screen and (max-width: 1200px){
-    .footsteps{
-        width: 70vw;
-    }
-    
-    .thorough{
-        width: 100vw;
-    }
-    
-    .the-most-thorough-imitator-p{
-        font-size: 1.5rem;
-        top: 41%;
-    }
-}
-
-@media only screen and (max-width: 850px){
-    .footsteps{
-        width: 90vw;
-    }
-    
-    .thorough{
-        width: 120vw;
-    }
-    
-    .the-most-thorough-imitator-p{
-        font-size: 1.5rem;
-        top: 41%;
-    }
-}
-
-@media only screen and (max-width: 750px){
-    .footsteps{
-        width: 100vw;
-    }
-    
-    .thorough{
-        width: 120vw;
-    }
-    
-    .the-most-thorough-imitator-p{
-        font-size: 1rem;
-        top: 43%;
-    }
-}
-
-@media only screen and (max-width: 600px){
-    .footsteps{
-        width: 120vw;
-    }
-    
-    .thorough{
-        width: 130vw;
-    }
-    
-    .the-most-thorough-imitator-p{
-        font-size: 1rem;
-        top: 43%;
-    }
-}
-
-@media only screen and (max-width: 400px){
-    .footsteps{
-        width: 130vw;
-    }
-    
-    .thorough{
-        width: 150vw;
-    }
-    
-    .the-most-thorough-imitator-p{
-        font-size: 1rem;
-        top: 43%;
-    }
-}
-
-@media only screen and (max-width: 350px){
-    .footsteps{
-        width: 170vw;
-    }
-    
-    .thorough{
-        width: 180vw;
-    }
-    
-    .the-most-thorough-imitator-p{
-        font-size: 1rem;
-        top: 43%;
-    }
 }
 
 .thorough-color{
@@ -1719,24 +450,24 @@ overflow-y: hidden;
 
 /* BORN SECTION */
 
-.born{
-    width: 50vw;
+.born-section{
+    width: 70vw;
     height: 100%;
-    background: url("imgs/streets-of-japan.webp");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
     display: flex;
     text-align: center;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-around;
-    position: relative;
+    align-items: center;
+    justify-content: center;
     overflow-x: auto;
     overflow-y: hidden;
+    margin: 0 5vw;
+}
+
+.born{
+    width: 50%;
+    height: auto;
     filter: drop-shadow(2px 4px 2px black);
-    border-radius: 10px;
-    border-left: 10px solid white;
+    border-radius: 30px;
 }
 
 /* IN JAPAN SECTION */
@@ -1749,98 +480,21 @@ overflow-y: hidden;
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-around;
-    position: relative;
     overflow-x: auto;
     overflow-y: hidden;
+    border-left: 10px solid white;
+    margin: 0 5vw 0 5vw;
 }
 
 .born-in-japan-p{
     width: 100%;
     font-size: 2rem;
-    line-height: 1.60;
+    line-height: 1.50;
     display: block;
     color: white;
-    position: absolute;
     font-family: var(--font-family-text);
     color: var(--white);
     filter: drop-shadow(2px 4px 2px var(--black));  
-    top: 42%;
-}
-
-@media only screen and (max-width: 1200px){
-    .born-in-japan-p{
-        font-size: 1.5rem;
-    }
-}
-
-@media only screen and (max-width: 1000px){
-    .born{
-        width: 80vw;
-    }
-    
-    .in-japan{
-        width: 60vw;
-    }
-    
-    .born-in-japan-p{
-        font-size: 1.5rem;
-    }
-}
-
-@media only screen and (max-width: 1000px){
-    .born{
-        width: 100vw;
-    }
-    
-    .in-japan{
-        width: 80vw;
-    }
-    
-    .born-in-japan-p{
-        font-size: 1.5rem;
-    }
-}
-
-@media only screen and (max-width: 750px){
-    .born{
-        width: 110vw;
-    }
-    
-    .in-japan{
-        width: 90vw;
-    }
-    
-    .born-in-japan-p{
-        font-size: 1rem;
-    }
-}
-
-@media only screen and (max-width: 500px){
-    .born{
-        width: 130vw;
-    }
-    
-    .in-japan{
-        width: 90vw;
-    }
-    
-    .born-in-japan-p{
-        font-size: 1rem;
-    }
-}
-
-@media only screen and (max-width: 350px){
-    .born{
-        width: 170vw;
-    }
-    
-    .in-japan{
-        width: 110vw;
-    }
-    
-    .born-in-japan-p{
-        font-size: 1rem;
-    }
 }
 
 /* BORN IN JAPAN SECTION */
@@ -1853,9 +507,12 @@ overflow-y: hidden;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    position: relative;
     overflow-x: auto;
     overflow-y: hidden;
+    border-left: 10px solid white;
+    position: relative;
+
+    margin: 0 5vw 0 5vw;
 }
 
 .ramen{
@@ -1864,7 +521,7 @@ overflow-y: hidden;
     height: auto;
     animation: rotateRamen 4s ease-in-out infinite forwards;
     z-index: 2;
-    left: 15%;
+    left: 24%;
     filter: drop-shadow(2px 4px 2px black);
     border-radius: 10px;
     
@@ -1876,7 +533,7 @@ overflow-y: hidden;
     height: auto;
     animation: rotateVinyl 4s ease-in-out infinite forwards;
     z-index: 1;
-    left: 17%;
+    left: 25%;
     filter: drop-shadow(2px 4px 2px black);
     border-radius: 10px;
 }
@@ -1895,62 +552,6 @@ overflow-y: hidden;
 
 }
 
-@media only screen and (min-width: 1401px) and (max-width: 1500px){
-    .born-in-japan-section{
-        width: 70vw;
-    }
-    
-    .ramen{
-        width: 20vw;        
-    }
-    
-    .vinyl{
-        width: 18vw;
-    }
-}
-
-@media only screen and (max-width: 800px){
-    .born-in-japan-section{
-        width: 70vw;
-    }
-    
-    .ramen{
-        width: 30vw;        
-    }
-    
-    .vinyl{
-        width: 28vw;
-    }
-}
-
-@media only screen and (max-width: 700px){
-    .born-in-japan-section{
-        width: 100vw;
-    }
-    
-    .ramen{
-        width: 40vw;        
-    }
-    
-    .vinyl{
-        width: 37vw;
-    }
-}
-
-@media only screen and (max-width: 500px){
-    .born-in-japan-section{
-        width: 140vw;
-    }
-    
-    .ramen{
-        width: 63vw;        
-    }
-    
-    .vinyl{
-        width: 60vw;
-    }
-}
-
 /* REBORN SECTION */
 
 .reborn{
@@ -1961,120 +562,22 @@ overflow-y: hidden;
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-around;
-    position: relative;
     overflow-x: auto;
     overflow-y: hidden;
+    border-right: 10px solid white;
+    margin: 0 5vw 0 5vw;
 }
 
 
 .reborn-p{
     width: 100%;
     font-size: 2rem;
-    line-height: 1.60;
+    line-height: 1.50;
     display: block;
     color: white;
-    position: absolute;
     font-family: var(--font-family-text);
     color: var(--white);
-    filter: drop-shadow(2px 4px 2px var(--black)); 
-    top: 42%; 
-}
-
-@media only screen and (max-width: 1400px){
-    .reborn{
-        width: 110vw;
-    }
-    
-    .reborn-p{
-        width: 100%;
-        font-size: 2rem;
-        top: 41%; 
-    }
-}
-
-@media only screen and (max-width: 1200px){
-    .reborn-p{
-        width: 100%;
-        font-size: 1.5rem;
-        top: 43%; 
-    }
-}
-
-@media only screen and (max-width: 900px){
-    .reborn{
-        width: 130vw;
-    }
-    
-    .reborn-p{
-        width: 100%;
-        font-size: 1.5rem;
-        top: 41%; 
-    }
-}
-
-.reborn-color{
-    display: inline;
-    color: var(--red);
-}
-
-@media only screen and (max-width: 800px){
-    .reborn{
-        width: 150vw;
-    }
-    
-    .reborn-p{
-        width: 100%;
-        font-size: 1.5rem;
-        top: 41%; 
-    }
-}
-
-@media only screen and (max-width: 750px){
-    .reborn{
-        width: 150vw;
-    }
-    
-    .reborn-p{
-        width: 100%;
-        font-size: 1rem;
-        top: 43%; 
-    }
-}
-
-@media only screen and (max-width: 550px){
-    .reborn{
-        width: 170vw;
-    }
-    
-    .reborn-p{
-        width: 100%;
-        font-size: 1rem;
-        top: 43%; 
-    }
-}
-
-@media only screen and (max-width: 400px){
-    .reborn{
-        width: 190vw;
-    }
-    
-    .reborn-p{
-        width: 100%;
-        font-size: 1rem;
-        top: 43%; 
-    }
-}
-
-@media only screen and (max-width: 350px){
-    .reborn{
-        width: 220vw;
-    }
-    
-    .reborn-p{
-        width: 100%;
-        font-size: 1rem;
-        top: 43%; 
-    }
+    filter: drop-shadow(2px 4px 2px var(--black));  
 }
 
 .reborn-color{
@@ -2084,244 +587,54 @@ overflow-y: hidden;
 
 /* ASPIRE TO PERFECTION SECTION */
 
+
+.perfection-section{
+    width: 70vw;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-x: auto;
+    overflow-y: hidden;
+    margin: 0 5vw;
+}
 
 .perfection{
-    width: 50vw;
-    height: 100%;
-    background: url("imgs/perfection.webp");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-around;
-    position: relative;
-    overflow-x: auto;
-    overflow-y: hidden;
+    width: 50%;
+    height: auto;
     filter: drop-shadow(2px 4px 2px black);
-    border-radius: 10px;
-    border-left: 10px solid white;
+    border-radius: 30px;
 }
+
+/* FROM THEN ONWARDS SECTION */
 
 .from-then-onwards-section{
-    width: 50vw;
+    width: 100vw;
     height: 100%;
     display: flex;
     text-align: center;
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-around;
-    position: relative;
     overflow-x: auto;
     overflow-y: hidden;
+    border-left: 10px solid white;
+    margin: 0 5vw 0 5vw;
 }
 
-/* ASPIRE TO PERFECTION SECTION */
+/* FROM THEN ONWARDS P */
 
 .from-then-onwards-p{
     width: 100%;
     font-size: 2rem;
-    line-height: 1.75;
+    line-height: 1.50;
     display: block;
     color: white;
-    position: absolute;
     font-family: var(--font-family-text);
     color: var(--white);
-    filter: drop-shadow(2px 4px 2px var(--black));  
-    top: 42%;
-}
-
-@media only screen and (min-width: 1401px) and (max-width: 1500px){
-    .perfection{
-        width: 50vw;
-    }
-    
-    .from-then-onwards-section{
-        width: 50vw;
-    }
-        
-    .from-then-onwards-p{
-        font-size: 2rem;
-        top: 42%;
-        line-height: 1.50;
-    }
-}
-
-@media only screen and (max-width: 1400px){
-    .perfection{
-        width: 50vw;
-    }
-    
-    .from-then-onwards-section{
-        width: 50vw;
-    }
-        
-    .from-then-onwards-p{
-        font-size: 2rem;
-        top: 25%;
-        line-height: 1.50;
-    }
-}
-
-@media only screen and (max-width: 1200px){
-    .perfection{
-        width: 80vw;
-    }
-    
-    .from-then-onwards-section{
-        width: 60vw;
-    }
-        
-    .from-then-onwards-p{
-        font-size: 1.5rem;
-        top: 45%;
-        line-height: 1.50;
-    }
-}
-
-@media only screen and (max-width: 1000px){
-    .perfection{
-        width: 90vw;
-    }
-    
-    .from-then-onwards-section{
-        width: 100vw;
-        margin-right: 10vw;
-    }
-        
-    .from-then-onwards-p{
-        font-size: 1.5rem;
-        top: 45%;
-        line-height: 1.50;
-    }
-}
-
-@media only screen and (max-width: 800px){
-    .perfection{
-        width: 100vw;
-        margin-right: 5vw;
-    }
-    
-    .from-then-onwards-section{
-        width: 120vw;
-        margin-right: 10vw;
-    }
-        
-    .from-then-onwards-p{
-        font-size: 1.5rem;
-        top: 45%;
-        line-height: 1.50;
-    }
-}
-
-@media only screen and (max-width: 750px){
-    .perfection{
-        width: 110vw;
-        margin-right: 5vw;
-    }
-    
-    .from-then-onwards-section{
-        width: 160vw;
-        margin-right: 15vw;
-    }
-        
-    .from-then-onwards-p{
-        font-size: 1rem;
-        top: 45%;
-        line-height: 1.50;
-    }
-}
-
-@media only screen and (max-width: 700px){
-    .perfection{
-        width: 130vw;
-        margin-right: 5vw;
-    }
-    
-    .from-then-onwards-section{
-        width: 180vw;
-        margin-right: 15vw;
-    }
-        
-    .from-then-onwards-p{
-        font-size: 1rem;
-        top: 45%;
-        line-height: 1.50;
-    }
-}
-
-@media only screen and (max-width: 650px){
-    .perfection{
-        width: 140vw;
-        margin-right: 5vw;
-    }
-    
-    .from-then-onwards-section{
-        width: 200vw;
-        margin-right: 15vw;
-    }
-        
-    .from-then-onwards-p{
-        font-size: 1rem;
-        top: 45%;
-        line-height: 1.50;
-    }
-}
-
-@media only screen and (max-width: 600px){
-    .perfection{
-        width: 140vw;
-        margin-right: 5vw;
-    }
-    
-    .from-then-onwards-section{
-        width: 250vw;
-        margin-right: 15vw;
-    }
-        
-    .from-then-onwards-p{
-        font-size: 1rem;
-        top: 45%;
-        line-height: 1.50;
-    }
-}
-
-@media only screen and (max-width: 400px){
-    .perfection{
-        width: 170vw;
-        margin-right: 5vw;
-    }
-    
-    .from-then-onwards-section{
-        width: 300vw;
-        margin-right: 15vw;
-    }
-        
-    .from-then-onwards-p{
-        font-size: 1rem;
-        top: 45%;
-        line-height: 1.50;
-    }
-}
-
-@media only screen and (max-width: 350px){
-    .perfection{
-        width: 200vw;
-        margin-right: 5vw;
-    }
-    
-    .from-then-onwards-section{
-        width: 370vw;
-        margin-right: 15vw;
-    }
-        
-    .from-then-onwards-p{
-        font-size: 1rem;
-        top: 45%;
-        line-height: 1.50;
-    }
+    filter: drop-shadow(2px 4px 2px var(--black)); 
 }
 
 .exactly{
@@ -2331,163 +644,51 @@ overflow-y: hidden;
 
 /* ANATOMY SECTION */
 
+.anatomy-section{
+    width: 70vw;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-x: auto;
+    overflow-y: hidden;
+    margin: 0 5vw;
+}
+
 .anatomy{
-    width: 50vw;
-    height: 100%;
-    background: url("imgs/anatomy.webp");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-around;
-    position: relative;
-    overflow-x: auto;
-    overflow-y: hidden;
+    width: 50%;
+    height: auto;
     filter: drop-shadow(2px 4px 2px black);
-    border-radius: 10px;
+    border-radius: 30px;
 }
 
-.anatomy-text-section{
-    width: 40vw;
+/* MICRO SECTION */
+
+.micro-section{
+    width: 60vw;
     height: 100%;
     display: flex;
     text-align: center;
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-around;
-    position: relative;
     overflow-x: auto;
     overflow-y: hidden;
-    filter: drop-shadow(2px 4px 2px black);
-    border-radius: 10px;
+    border-right: 10px solid white;
+    margin: 0 5vw 0 5vw;
 }
 
-.anatomy-text{
+.micro-p{
     width: 100%;
     font-size: 2rem;
-    line-height: 1.60;
+    line-height: 1.50;
     display: block;
     color: white;
-    position: absolute;
     font-family: var(--font-family-text);
     color: var(--white);
     filter: drop-shadow(2px 4px 2px var(--black)); 
-    top: 42%;
-}
-
-@media only screen and (max-width: 1400px){
-    .anatomy{
-        width: 50vw;
-    }
-    
-    .anatomy-text-section{
-        width: 60vw;
-    }
-    
-    .anatomy-text{
-        font-size: 2rem;
-        top: 40%;
-        margin-right: 10vw;
-    }
-}
-
-@media only screen and (max-width: 1200px){
-    .anatomy{
-        width: 70vw;
-    }
-    
-    .anatomy-text-section{
-        width: 60vw;
-    }
-    
-    .anatomy-text{
-        font-size: 1.5rem;
-        top: 41%;
-        margin-right: 10vw;
-    }
-}
-
-@media only screen and (max-width: 1000px){
-    .anatomy{
-        width: 70vw;
-    }
-    
-    .anatomy-text-section{
-        width: 100vw;
-    }
-    
-    .anatomy-text{
-        font-size: 1.5rem;
-        top: 41%;
-        margin-right: 10vw;
-    }
-}
-
-@media only screen and (max-width: 750px){
-    .anatomy{
-        width: 90vw;
-    }
-    
-    .anatomy-text-section{
-        width: 120vw;
-    }
-    
-    .anatomy-text{
-        font-size: 1rem;
-        top: 45%;
-        margin-right: 10vw;
-    }
-}
-
-@media only screen and (max-width: 650px){
-    .anatomy{
-        width: 120vw;
-    }
-    
-    .anatomy-text-section{
-        width: 120vw;
-    }
-    
-    .anatomy-text{
-        font-size: 1rem;
-        top: 45%;
-        margin-right: 10vw;
-    }
-}
-
-@media only screen and (max-width: 450px){
-    .anatomy{
-        width: 150vw;
-    }
-    
-    .anatomy-text-section{
-        width: 150vw;
-    }
-    
-    .anatomy-text{
-        font-size: 1rem;
-        top: 45%;
-        margin-right: 10vw;
-    }
-}
-
-@media only screen and (max-width: 350px){
-    .anatomy{
-        width: 200vw;
-    }
-    
-    .anatomy-text-section{
-        width: 200vw;
-    }
-    
-    .anatomy-text{
-        font-size: 1rem;
-        top: 45%;
-        margin-right: 10vw;
-    }
 }
 
 .micro{
@@ -2497,178 +698,51 @@ overflow-y: hidden;
 
 /* MONK SECTION */
 
-.monk{
-    width: 50vw;
-    height: 100%;
-    background: url("imgs/monk.webp");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-around;
-    position: relative;
-    overflow-x: auto;
-    overflow-y: hidden;
-    filter: drop-shadow(2px 4px 2px black);
-    border-radius: 10px;
-    border-left: 10px solid white;
-}
-
-/* MONK TXT SECTION */
-
-.monk-txt{
-    width: 50vw;
+.monk-section{
+    width: 70vw;
     height: 100%;
     display: flex;
     text-align: center;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    position: relative;
     overflow-x: auto;
     overflow-y: hidden;
+    margin: 0 5vw;
+}
+
+.monk{
+    width: 50%;
+    height: auto;
+    filter: drop-shadow(2px 4px 2px black);
+    border-radius: 30px;
+}
+
+/* MONK TXT SECTION */
+
+.monk-txt{
+    width: 80vw;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    overflow-x: auto;
+    overflow-y: hidden;
+    border-left: 10px solid white;
+    margin: 0 5vw 0 5vw;
 }
 
 .like-an-obsessed-monk-p{
-    width: 80%;
+    width: 100%;
     font-size: 2rem;
-    line-height: 1.60;
+    line-height: 1.50;
     display: block;
     color: white;
-    position: absolute;
     font-family: var(--font-family-text);
     color: var(--white);
-    filter: drop-shadow(2px 4px 2px var(--black));  
-    top: 42%;
-}
-
-@media only screen and (max-width: 1400px){
-    .monk{
-        width: 50vw;
-    }
-    
-    /* MONK TXT SECTION */
-    
-    .monk-txt{
-        width: 80vw;
-    }
-    
-    .like-an-obsessed-monk-p{
-        width: 70%;
-        font-size: 2rem; 
-        top: 40%;
-    }
-}
-
-@media only screen and (max-width: 1200px){
-    .monk{
-        width: 70vw;
-    }
-    
-    /* MONK TXT SECTION */
-    
-    .monk-txt{
-        width: 80vw;
-    }
-    
-    .like-an-obsessed-monk-p{
-        width: 70%;
-        font-size: 1.5rem; 
-        top: 44%;
-    }
-}
-
-@media only screen and (max-width: 1000px){
-    .monk{
-        width: 90vw;
-    }
-    
-    /* MONK TXT SECTION */
-    
-    .monk-txt{
-        width: 110vw;
-    }
-    
-    .like-an-obsessed-monk-p{
-        width: 70%;
-        font-size: 1.5rem; 
-        top: 44%;
-    }
-}
-
-@media only screen and (max-width: 800px){
-    .monk{
-        width: 120vw;
-    }
-    
-    /* MONK TXT SECTION */
-    
-    .monk-txt{
-        width: 150vw;
-    }
-    
-    .like-an-obsessed-monk-p{
-        width: 100%;
-        font-size: 1rem; 
-        top: 44%;
-    }
-}
-
-@media only screen and (max-width: 600px){
-    .monk{
-        width: 170vw;
-    }
-    
-    /* MONK TXT SECTION */
-    
-    .monk-txt{
-        width: 200vw;
-    }
-    
-    .like-an-obsessed-monk-p{
-        width: 100%;
-        font-size: 1rem; 
-        top: 44%;
-    }
-}
-
-@media only screen and (max-width: 401px){
-    .monk{
-        width: 200vw;
-    }
-    
-    /* MONK TXT SECTION */
-    
-    .monk-txt{
-        width: 280vw;
-    }
-    
-    .like-an-obsessed-monk-p{
-        width: 100%;
-        font-size: 1rem; 
-        top: 44%;
-    }
-}
-
-@media only screen and (max-width: 350px){
-    .monk{
-        width: 250vw;
-    }
-    
-    /* MONK TXT SECTION */
-    
-    .monk-txt{
-        width: 320vw;
-    }
-    
-    .like-an-obsessed-monk-p{
-        width: 100%;
-        font-size: 1rem; 
-        top: 44%;
-    }
+    filter: drop-shadow(2px 4px 2px var(--black)); 
 }
 
 .obsessed{
@@ -2678,211 +752,51 @@ overflow-y: hidden;
 
 /* Maze SECTION */
 
-.maze{
-    width: 50vw;
-    height: 100%;
-    background: url("imgs/maze10.webp");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-around;
-    position: relative;
-    overflow-x: auto;
-    overflow-y: hidden;
-    filter: drop-shadow(2px 4px 2px black);
-    border-radius: 10px;
-    border-left: 10px solid white;
-}
-
-.maze-txt{
-    width: 50vw;
+.maze-section{
+    width: 70vw;
     height: 100%;
     display: flex;
     text-align: center;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    position: relative;
     overflow-x: auto;
     overflow-y: hidden;
+    margin: 0 5vw;
 }
 
-.maze-txt-p{
+.maze{
+    width: 50%;
+    height: auto;
+    filter: drop-shadow(2px 4px 2px black);
+    border-radius: 30px;
+}
+
+/* too far section */
+
+.too-far-section{
+    width: 60vw;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    overflow-x: auto;
+    overflow-y: hidden;
+    border-right: 10px solid white;
+    margin: 0 5vw 0 5vw;
+}
+
+.too-far-p{
     width: 100%;
     font-size: 2rem;
-    line-height: 1.60;
+    line-height: 1.50;
     display: block;
     color: white;
-    position: absolute;
     font-family: var(--font-family-text);
     color: var(--white);
-    filter: drop-shadow(2px 4px 2px var(--black));  
-    top: 42%;
-}
-
-@media only screen and (max-width: 1400px){
-    .maze{
-        width: 50vw;
-    }
-    
-    .maze-txt{
-        width: 50vw;
-    }
-    
-    .maze-txt-p{
-        width: 80%;
-        font-size: 2rem;
-        line-height: 1.60;
-        top: 40%;
-    }
-}
-
-@media only screen and (max-width: 1200px){
-    .maze{
-        width: 70vw;
-    }
-    
-    .maze-txt{
-        width: 80vw;
-    }
-    
-    .maze-txt-p{
-        width: 100%;
-        font-size: 1.5rem;
-        line-height: 1.60;
-        top: 43%;
-        margin-right: 10vw;
-    }
-}
-
-@media only screen and (max-width: 1000px){
-    .maze{
-        width: 100vw;
-    }
-    
-    .maze-txt{
-        width: 110vw;
-    }
-    
-    .maze-txt-p{
-        width: 100%;
-        font-size: 1.5rem;
-        line-height: 1.60;
-        top: 43%;
-        margin-right: 10vw;
-    }
-}
-
-@media only screen and (max-width: 900px){
-    .maze{
-        width: 110vw;
-    }
-    
-    .maze-txt{
-        width: 150vw;
-    }
-    
-    .maze-txt-p{
-        width: 100%;
-        font-size: 1.5rem;
-        line-height: 1.60;
-        top: 43%;
-        margin-right: 10vw;
-    }
-}
-
-@media only screen and (max-width: 800px){
-    .maze{
-        width: 110vw;
-    }
-    
-    .maze-txt{
-        width: 200vw;
-    }
-    
-    .maze-txt-p{
-        width: 100%;
-        font-size: 1.5rem;
-        line-height: 1.60;
-        top: 43%;
-        margin-right: 10vw;
-    }
-}
-
-@media only screen and (max-width: 750px){
-    .maze{
-        width: 130vw;
-    }
-    
-    .maze-txt{
-        width: 200vw;
-    }
-    
-    .maze-txt-p{
-        width: 100%;
-        font-size: 1rem;
-        line-height: 1.60;
-        top: 43%;
-        margin-right: 10vw;
-    }
-}
-
-@media only screen and (max-width: 500px){
-    .maze{
-        width: 200vw;
-    }
-    
-    .maze-txt{
-        width: 230vw;
-    }
-    
-    .maze-txt-p{
-        width: 100%;
-        font-size: 1rem;
-        line-height: 1.60;
-        top: 43%;
-        margin-right: 10vw;
-    }
-}
-
-@media only screen and (max-width: 400px){
-    .maze{
-        width: 250vw;
-    }
-    
-    .maze-txt{
-        width: 280vw;
-    }
-    
-    .maze-txt-p{
-        width: 100%;
-        font-size: 1rem;
-        line-height: 1.60;
-        top: 43%;
-        margin-right: 10vw;
-    }
-}
-
-@media only screen and (max-width: 350px){
-    .maze{
-        width: 300vw;
-    }
-    
-    .maze-txt{
-        width: 320vw;
-    }
-    
-    .maze-txt-p{
-        width: 100%;
-        font-size: 1rem;
-        line-height: 1.60;
-        top: 43%;
-        margin-right: 10vw;
-    }
+    filter: drop-shadow(2px 4px 2px var(--black)); 
 }
 
 .too-far{
@@ -2890,186 +804,1103 @@ overflow-y: hidden;
     color: var(--red);
 }
 
-/* staircase SECTION */
+/* heaven SECTION */
 
-.staircase{
-    width: 50vw;
-    height: 100%;
-    background: url("imgs/heaven.webp");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-around;
-    position: relative;
-    overflow-x: auto;
-    overflow-y: hidden;
-    filter: drop-shadow(2px 4px 2px black);
-    border-radius: 10px;
-    border-left: 10px solid white;
-}
-
-.staircase-text{
-    width: 50vw;
+.heaven-section{
+    width: 70vw;
     height: 100%;
     display: flex;
     text-align: center;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    position: relative;
     overflow-x: auto;
     overflow-y: hidden;
+    margin: 0 5vw;
 }
 
-.staircase-p{
+.heaven{
+    width: 50%;
+    height: auto;
+    filter: drop-shadow(2px 4px 2px black);
+    border-radius: 30px;
+}
+
+.heaven-text{
+    width: 60vw;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    overflow-x: auto;
+    overflow-y: hidden;
+    border-left: 10px solid white;
+    margin: 0 5vw 0 5vw;
+}
+
+.heaven-p{
     width: 100%;
     font-size: 2rem;
-    line-height: 1.60;
+    line-height: 1.50;
     display: block;
     color: white;
-    position: absolute;
     font-family: var(--font-family-text);
     color: var(--white);
-    filter: drop-shadow(2px 4px 2px var(--black));  
-    top: 40%;
-}
-
-@media only screen and (max-width: 1400px){
-    .staircase{
-        width: 50vw;
-    }
-    
-    .staircase-text{
-        width: 100vw;
-    }
-    
-    .staircase-p{
-        font-size: 2rem;
-        line-height: 1.60;
-        top: 40%;
-    }
-}
-
-@media only screen and (max-width: 1400px){
-    .staircase{
-        width: 70vw;
-    }
-    
-    .staircase-text{
-        width: 100vw;
-    }
-    
-    .staircase-p{
-        font-size: 1.5rem;
-        line-height: 1.60;
-        top: 40%;
-    }
-}
-
-@media only screen and (max-width: 1400px){
-    .staircase{
-        width: 110vw;
-    }
-    
-    .staircase-text{
-        width: 130vw;
-    }
-    
-    .staircase-p{
-        font-size: 1.5rem;
-        line-height: 1.60;
-        top: 40%;
-    }
-}
-
-@media only screen and (max-width: 850px){
-    .staircase{
-        width: 150vw;
-    }
-    
-    .staircase-text{
-        width: 160vw;
-        margin-left: 20vw;
-    }
-    
-    .staircase-p{
-        font-size: 1.5rem;
-        line-height: 1.60;
-        top: 40%;
-    }
-}
-
-@media only screen and (max-width: 750px){
-    .staircase{
-        width: 150vw;
-    }
-    
-    .staircase-text{
-        width: 170vw;
-    }
-    
-    .staircase-p{
-        font-size: 1rem;
-        line-height: 1.60;
-        top: 44%;
-    }
-}
-
-@media only screen and (max-width: 500px){
-    .staircase{
-        width: 200vw;
-    }
-    
-    .staircase-text{
-        width: 200vw;
-    }
-    
-    .staircase-p{
-        font-size: 1rem;
-        line-height: 1.60;
-        top: 44%;
-    }
-}
-
-@media only screen and (max-width: 400px){
-    .staircase{
-        width: 300vw;
-    }
-    
-    .staircase-text{
-        width: 250vw;
-    }
-    
-    .staircase-p{
-        font-size: 1rem;
-        line-height: 1.60;
-        top: 44%;
-    }
-}
-
-@media only screen and (max-width: 350px){
-    .staircase{
-        width: 350vw;
-    }
-    
-    .staircase-text{
-        width: 300vw;
-    }
-    
-    .staircase-p{
-        font-size: 1rem;
-        line-height: 1.60;
-        top: 44%;
-    }
+    filter: drop-shadow(2px 4px 2px var(--black)); 
 }
 
 .enough{
     display: inline;
     color: var(--red);
+}
+
+@media only screen and (max-width: 1200px){
+    /* INTRO TEXT SECTION */
+
+.intro-text{
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.obsession-h1{
+    font-size: 4rem;
+    width: 40%;
+    right: 10%;
+    top: 38%;
+}
+
+.tribute-p{
+    width: 25%;
+    left: 10%;
+    bottom: 30%;
+    font-size: 2.5rem;
+    line-height: 1.6;
+}
+}
+
+@media only screen and (max-width: 800px){
+    #container{
+        width: 2300vw;
+    }
+
+    .intro-text{
+        width: 100vw;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    .obsession-h1{
+        font-size: 3rem;
+        width: 80%;
+        right: 10%;
+        top: 41%;
+    }
+    
+    .tribute-p{
+        width: 80%;
+        left: 10%;
+        bottom: 60%;
+        font-size: 2rem;
+        line-height: 1.6;
+    }
+    
+    /* NEVER HEARD SECTION */
+
+.if-you-never-heard-section{
+    width: 100vw;
+    margin: 0 5vw 0 0vw;
+}
+
+.never-heard-p{
+        width: 100%;
+        font-size: 2rem;
+        line-height: 1.50;
+}
+
+.does-not-exist-section{
+    width: 100vw;
+    height: 100%;
+    margin: 0 5vw 0 5vw;
+}
+
+.does-not-exist-p{
+    width: 100%;
+    font-size: 2rem;
+    line-height: 1.50;
+}
+
+.for-the-past-30-years-section{
+    width: 100vw;
+    height: 100%;
+    margin: 0 5vw 0 5vw;
+}
+
+.for-the-past-30-years-p{
+    width: 100%;
+    font-size: 2rem;
+    line-height: 1.50;
+}
+
+.thorough{
+    width: 100vw;
+    height: 100%;
+    margin: 0 5vw 0 5vw;
+}
+
+.the-most-thorough-imitator-p{
+    width: 100%;
+    font-size: 2rem;
+    line-height: 1.50;
+}
+
+.in-japan{
+    width: 100vw;
+    height: 100%;
+    margin: 0 5vw 0 5vw;
+}
+
+.born-in-japan-p{
+    width: 100%;
+    font-size: 2rem;
+    line-height: 1.50;
+}
+
+.born-in-japan-section{
+    width: 80vw;
+    height: 100%;
+    position: relative;
+    margin: 0 5vw 0 5vw;
+}
+
+.ramen{
+    width: 30vw;
+}
+.vinyl{
+    width: 30vw;
+}
+
+.reborn{
+    width: 140vw;
+    height: 100%;
+    margin: 0 5vw 0 5vw;
+}
+
+
+.reborn-p{
+    width: 100%;
+    font-size: 2rem;
+    line-height: 1.50; 
+}
+
+.from-then-onwards-section{
+    width: 150vw;
+    height: 100%;
+    margin: 0 5vw 0 5vw;
+}
+
+/* FROM THEN ONWARDS P */
+
+.from-then-onwards-p{
+    width: 100%;
+    font-size: 2rem;
+    line-height: 1.50;
+}
+
+.micro-section{
+    width: 80vw;
+    height: 100%;
+    margin: 0 5vw 0 5vw;
+}
+
+.micro-p{
+    width: 100%;
+    font-size: 2rem;
+    line-height: 1.50;
+}
+
+.monk-txt{
+    width: 120vw;
+    height: 100%;
+    margin: 0 5vw 0 5vw;
+}
+
+.like-an-obsessed-monk-p{
+    width: 100%;
+    font-size: 2rem;
+    line-height: 1.50;
+}
+
+.too-far-section{
+    width: 100vw;
+    height: 100%;
+    margin: 0 5vw 0 5vw;
+}
+
+.too-far-p{
+    width: 100%;
+    font-size: 2rem;
+    line-height: 1.50;
+}
+
+.heaven-text{
+    width: 100vw;
+    height: 100%;
+    margin: 0 5vw 0 5vw;
+}
+
+.heaven-p{
+    width: 100%;
+    font-size: 2rem;
+    line-height: 1.50;
+}
+
+.hr-a{
+    width: 2200vw;
+}
+
+.hr-b{
+    width: 2200vw;
+}
+
+.hr-c{
+    width: 2200vw;
+}
+
+.hr-d{
+    width: 2200vw;
+}
+
+.hr-e{
+    width:2200vw;
+}
+
+.hr-f{
+    width: 2200vw;
+}
+}
+
+@media only screen and (max-width: 700px){
+    #container{
+        width: 2300vw;
+    }
+
+    .intro-text{
+        width: 100vw;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    .obsession-h1{
+        font-size: 3rem;
+        width: 80%;
+        right: 10%;
+        top: 41%;
+    }
+    
+    .tribute-p{
+        width: 80%;
+        left: 10%;
+        bottom: 60%;
+        font-size: 2rem;
+        line-height: 1.6;
+    }
+    
+    /* NEVER HEARD SECTION */
+
+.if-you-never-heard-section{
+    width: 100vw;
+    margin: 0 5vw 0 0vw;
+}
+
+.never-heard-p{
+        width: 100%;
+        font-size: 2rem;
+        line-height: 1.50;
+}
+
+.does-not-exist-section{
+    width: 100vw;
+    height: 100%;
+    margin: 0 5vw 0 5vw;
+}
+
+.does-not-exist-p{
+    width: 100%;
+    font-size: 2rem;
+    line-height: 1.50;
+}
+
+.ghost-section{
+    width: 100vw;
+    height: 100%;
+    margin: 0 5vw;
+}
+
+.ghost{
+    width: 80%;
+}
+
+.for-the-past-30-years-section{
+    width: 130vw;
+    height: 100%;
+    margin: 0 5vw 0 5vw;
+}
+
+.for-the-past-30-years-p{
+    width: 100%;
+    font-size: 2rem;
+    line-height: 1.50;
+}
+
+.thorough{
+    width: 130vw;
+    height: 100%;
+    margin: 0 5vw 0 5vw;
+}
+
+.the-most-thorough-imitator-p{
+    width: 100%;
+    font-size: 2rem;
+    line-height: 1.50;
+}
+
+.in-japan{
+    width: 100vw;
+    height: 100%;
+    margin: 0 5vw 0 5vw;
+}
+
+.born-in-japan-p{
+    width: 100%;
+    font-size: 2rem;
+    line-height: 1.50;
+}
+
+.born-in-japan-section{
+    width: 80vw;
+    height: 100%;
+    position: relative;
+    margin: 0 5vw 0 5vw;
+}
+
+.ramen{
+    width: 30vw;
+}
+.vinyl{
+    width: 30vw;
+}
+
+.reborn{
+    width: 140vw;
+    height: 100%;
+    margin: 0 5vw 0 5vw;
+}
+
+
+.reborn-p{
+    width: 100%;
+    font-size: 2rem;
+    line-height: 1.50; 
+}
+
+.from-then-onwards-section{
+    width: 180vw;
+    height: 100%;
+    margin: 0 5vw 0 5vw;
+}
+
+/* FROM THEN ONWARDS P */
+
+.from-then-onwards-p{
+    width: 100%;
+    font-size: 2rem;
+    line-height: 1.50;
+}
+
+.micro-section{
+    width: 80vw;
+    height: 100%;
+    margin: 0 5vw 0 5vw;
+}
+
+.micro-p{
+    width: 100%;
+    font-size: 2rem;
+    line-height: 1.50;
+}
+
+.monk-txt{
+    width: 120vw;
+    height: 100%;
+    margin: 0 5vw 0 5vw;
+}
+
+.like-an-obsessed-monk-p{
+    width: 100%;
+    font-size: 2rem;
+    line-height: 1.50;
+}
+
+.too-far-section{
+    width: 100vw;
+    height: 100%;
+    margin: 0 5vw 0 5vw;
+}
+
+.too-far-p{
+    width: 100%;
+    font-size: 2rem;
+    line-height: 1.50;
+}
+
+.heaven-text{
+    width: 100vw;
+    height: 100%;
+    margin: 0 5vw 0 5vw;
+}
+
+.heaven-p{
+    width: 100%;
+    font-size: 2rem;
+    line-height: 1.50;
+}
+
+.hr-a{
+    width: 2200vw;
+}
+
+.hr-b{
+    width: 2200vw;
+}
+
+.hr-c{
+    width: 2200vw;
+}
+
+.hr-d{
+    width: 2200vw;
+}
+
+.hr-e{
+    width:2200vw;
+}
+
+.hr-f{
+    width: 2200vw;
+}
+}
+
+@media only screen and (max-width: 500px){
+    #container{
+        width: 3000vw;
+    }
+
+    .intro-text{
+        width: 100vw;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    .obsession-h1{
+        font-size: 3rem;
+        width: 80%;
+        right: 10%;
+        top: 41%;
+    }
+    
+    .tribute-p{
+        width: 80%;
+        left: 10%;
+        bottom: 63%;
+        font-size: 2rem;
+        line-height: 1.6;
+    }
+
+    .moon-section{
+        width: 100vw;
+        margin: 0 10vw;
+    }
+    
+    .moon{
+        width: 80%;    
+    }
+    
+    /* NEVER HEARD SECTION */
+
+.if-you-never-heard-section{
+    width: 150vw;
+    margin: 0 5vw 0 0vw;
+}
+
+.never-heard-p{
+        width: 100%;
+        font-size: 2rem;
+        line-height: 1.50;
+}
+
+.selfie-section{
+    width: 100vw;
+    height: 100%;
+    margin: 0 5vw;
+}
+
+.selfie{
+    width: 80%;
+}
+
+.does-not-exist-section{
+    width: 150vw;
+    height: 100%;
+    margin: 0 5vw 0 5vw;
+}
+
+.does-not-exist-p{
+    width: 100%;
+    font-size: 2rem;
+    line-height: 1.50;
+}
+
+.for-the-past-30-years-section{
+    width: 180vw;
+    height: 100%;
+    margin: 0 5vw 0 5vw;
+}
+
+.for-the-past-30-years-p{
+    width: 100%;
+    font-size: 2rem;
+    line-height: 1.50;
+}
+
+.footsteps-section{
+    width: 100vw;
+    height: 100%;
+    margin: 0 5vw;
+}
+
+.footsteps{
+    width: 80%;
+    height: auto;
+    filter: drop-shadow(2px 4px 2px black);
+    border-radius: 30px;
+}
+
+.thorough{
+    width: 180vw;
+    height: 100%;
+    margin: 0 5vw 0 5vw;
+}
+
+.the-most-thorough-imitator-p{
+    width: 100%;
+    font-size: 2rem;
+    line-height: 1.50;
+}
+
+.born-section{
+    width: 100vw;
+    height: 100%;
+    margin: 0 5vw;
+}
+
+.born{
+    width: 80%;
+}
+
+.in-japan{
+    width: 100vw;
+    height: 100%;
+    margin: 0 5vw 0 5vw;
+}
+
+.born-in-japan-p{
+    width: 100%;
+    font-size: 2rem;
+    line-height: 1.50;
+}
+
+.born-in-japan-section{
+    width: 100vw;
+    height: 100%;
+    position: relative;
+    margin: 0 5vw 0 5vw;
+}
+
+.ramen{
+    width: 50vw;
+}
+.vinyl{
+    width: 50vw;
+}
+
+
+.reborn{
+    width: 180vw;
+    height: 100%;
+    margin: 0 5vw 0 5vw;
+}
+
+
+.reborn-p{
+    width: 100%;
+    font-size: 2rem;
+    line-height: 1.50; 
+}
+
+.perfection-section{
+    width: 100vw;
+    margin: 0 5vw;
+}
+
+.perfection{
+    width: 80%;
+}
+
+.from-then-onwards-section{
+    width: 250vw;
+    height: 100%;
+    margin: 0 5vw 0 5vw;
+}
+
+/* FROM THEN ONWARDS P */
+
+.from-then-onwards-p{
+    width: 100%;
+    font-size: 2rem;
+    line-height: 1.50;
+}
+
+.anatomy-section{
+    width: 100vw;
+    margin: 0 5vw;
+}
+
+.anatomy{
+    width: 80%;
+}
+
+.micro-section{
+    width: 120vw;
+    height: 100%;
+    margin: 0 5vw 0 5vw;
+}
+
+.micro-p{
+    width: 100%;
+    font-size: 2rem;
+    line-height: 1.50;
+}
+
+.monk-section{
+    width: 100vw;
+    height: 100%;
+    margin: 0 5vw;
+}
+
+.monk{
+    width: 80%;
+}
+
+.monk-txt{
+    width: 180vw;
+    height: 100%;
+    margin: 0 5vw 0 5vw;
+}
+
+.like-an-obsessed-monk-p{
+    width: 100%;
+    font-size: 2rem;
+    line-height: 1.50;
+}
+
+.maze-section{
+    width: 100vw;
+    height: 100%;
+    margin: 0 5vw;
+}
+
+.maze{
+    width: 80%;
+}
+
+.too-far-section{
+    width: 150vw;
+    height: 100%;
+    margin: 0 5vw 0 5vw;
+}
+
+.too-far-p{
+    width: 100%;
+    font-size: 2rem;
+    line-height: 1.50;
+}
+
+.heaven-section{
+    width: 100vw;
+    height: 100%;
+    margin: 0 5vw;
+}
+
+.heaven{
+    width: 80%;
+}
+
+.heaven-text{
+    width: 150vw;
+    height: 100%;
+    margin: 0 5vw 0 5vw;
+}
+
+.heaven-p{
+    width: 100%;
+    font-size: 2rem;
+    line-height: 1.50;
+}
+
+.hr-a{
+    width: 2860vw;
+}
+
+.hr-b{
+    width: 2860vw;
+}
+
+.hr-c{
+    width: 2860vw;
+}
+
+.hr-d{
+    width: 2860vw;
+}
+
+.hr-e{
+    width:2860vw;
+}
+
+.hr-f{
+    width: 2860vw;
+}
+}
+
+
+@media only screen and (max-width: 350px){
+    #container{
+        width: 3550vw;
+    }
+
+    .intro-text{
+        width: 100vw;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    .obsession-h1{
+        font-size: 2rem;
+        width: 80%;
+        right: 10%;
+        top: 43%;
+    }
+    
+    .tribute-p{
+        width: 90%;
+        left: 8%;
+        bottom: 66%;
+        font-size: 1.5rem;
+        line-height: 1.6;
+    }
+
+    .moon-section{
+        width: 100vw;
+        margin: 0 10vw;
+    }
+    
+    .moon{
+        width: 100%;    
+    }
+    
+    /* NEVER HEARD SECTION */
+
+.if-you-never-heard-section{
+    width: 180vw;
+    margin: 0 5vw 0 0vw;
+}
+
+.never-heard-p{
+        width: 100%;
+        font-size: 1.5rem;
+        line-height: 1.50;
+}
+
+.selfie-section{
+    width: 100vw;
+    height: 100%;
+    margin: 0 5vw;
+}
+
+.selfie{
+    width: 100%;
+}
+
+.does-not-exist-section{
+    width: 180vw;
+    height: 100%;
+    margin: 0 5vw 0 5vw;
+}
+
+.does-not-exist-p{
+    width: 100%;
+    font-size: 1.5rem;
+    line-height: 1.50;
+}
+
+.ghost-section{
+    width: 100vw;
+    height: 100%;
+    margin: 0 5vw;
+}
+
+.ghost{
+    width: 100%;
+}
+
+.for-the-past-30-years-section{
+    width: 200vw;
+    height: 100%;
+    margin: 0 5vw 0 5vw;
+}
+
+.for-the-past-30-years-p{
+    width: 100%;
+    font-size: 1.5rem;
+    line-height: 1.50;
+}
+
+.footsteps-section{
+    width: 100vw;
+    height: 100%;
+    margin: 0 5vw;
+}
+
+.footsteps{
+    width: 100%;
+    height: auto;
+    filter: drop-shadow(2px 4px 2px black);
+    border-radius: 30px;
+}
+
+.thorough{
+    width: 210vw;
+    height: 100%;
+    margin: 0 5vw 0 5vw;
+}
+
+.the-most-thorough-imitator-p{
+    width: 100%;
+    font-size: 1.5rem;
+    line-height: 1.50;
+}
+
+.born-section{
+    width: 100vw;
+    height: 100%;
+    margin: 0 5vw;
+}
+
+.born{
+    width: 100%;
+}
+
+.in-japan{
+    width: 130vw;
+    height: 100%;
+    margin: 0 5vw 0 5vw;
+}
+
+.born-in-japan-p{
+    width: 100%;
+    font-size: 1.5rem;
+    line-height: 1.50;
+}
+
+.born-in-japan-section{
+    width: 130vw;
+    height: 100%;
+    position: relative;
+    margin: 0 5vw 0 5vw;
+}
+
+.ramen{
+    width: 70vw;
+}
+.vinyl{
+    width: 70vw;
+}
+
+
+.reborn{
+    width: 210vw;
+    height: 100%;
+    margin: 0 5vw 0 5vw;
+}
+
+
+.reborn-p{
+    width: 100%;
+    font-size: 1.5rem;
+    line-height: 1.50; 
+}
+
+.perfection-section{
+    width: 100vw;
+    margin: 0 5vw;
+}
+
+.perfection{
+    width: 100%;
+}
+
+.from-then-onwards-section{
+    width: 280vw;
+    height: 100%;
+    margin: 0 5vw 0 5vw;
+}
+
+/* FROM THEN ONWARDS P */
+
+.from-then-onwards-p{
+    width: 100%;
+    font-size: 1.5rem;
+    line-height: 1.50;
+}
+
+.anatomy-section{
+    width: 100vw;
+    margin: 0 5vw;
+}
+
+.anatomy{
+    width: 100%;
+}
+
+.micro-section{
+    width: 150vw;
+    height: 100%;
+    margin: 0 5vw 0 5vw;
+}
+
+.micro-p{
+    width: 100%;
+    font-size: 1.5rem;
+    line-height: 1.50;
+}
+
+.monk-section{
+    width: 100vw;
+    height: 100%;
+    margin: 0 5vw;
+}
+
+.monk{
+    width: 100%;
+}
+
+.monk-txt{
+    width: 210vw;
+    height: 100%;
+    margin: 0 5vw 0 5vw;
+}
+
+.like-an-obsessed-monk-p{
+    width: 100%;
+    font-size: 1.5rem;
+    line-height: 1.50;
+}
+
+.maze-section{
+    width: 100vw;
+    height: 100%;
+    margin: 0 5vw;
+}
+
+.maze{
+    width: 100%;
+}
+
+.too-far-section{
+    width: 180vw;
+    height: 100%;
+    margin: 0 5vw 0 5vw;
+}
+
+.too-far-p{
+    width: 100%;
+    font-size: 1.5rem;
+    line-height: 1.50;
+}
+
+.heaven-section{
+    width: 100vw;
+    height: 100%;
+    margin: 0 5vw;
+}
+
+.heaven{
+    width: 100%;
+}
+
+.heaven-text{
+    width: 180vw;
+    height: 100%;
+    margin: 0 5vw 0 5vw;
+}
+
+.heaven-p{
+    width: 100%;
+    font-size: 1.5rem;
+    line-height: 1.50;
+}
+
+.hr-a{
+    width: 3370vw;
+}
+
+.hr-b{
+    width: 3370vw;
+}
+
+.hr-c{
+    width: 3370vw;
+}
+
+.hr-d{
+    width: 3370vw;
+}
+
+.hr-e{
+    width:3370vw;
+}
+
+.hr-f{
+    width: 3370vw;
+}
 }
 
 

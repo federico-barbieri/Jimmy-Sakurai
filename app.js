@@ -1,3 +1,31 @@
+"use strict";
+
+window.addEventListener('DOMContentLoaded', start);
+
+function start(){
+    string3Moves();
+    setTimeout(string6Moves, 1000);
+    setTimeout(string1Moves, 2000);
+}
+
+// initial string movement
+
+function string3Moves(){
+    string3.classList.toggle('stringy3');
+    setTimeout(stopMoving3, 500);
+}
+
+function string1Moves(){
+    string1.classList.toggle('stringy1');
+    setTimeout(stopMoving1, 500);
+}
+
+function string6Moves(){
+    string6.classList.toggle('stringy6');
+    setTimeout(stopMoving6, 500);
+}
+
+
 // grab strings and make sound when touch
 
 let string6 = document.querySelector('.hr-a');
@@ -86,19 +114,3 @@ string1.addEventListener('click', () =>{
 function stopMoving1(){
     string1.classList.remove('stringy1');
 }
-
-
-////////////////
-
-// ramen time
-
-let count = 0;
-
-const thirtyYearsSection = document.querySelector('.for-the-past-30-years-section');
-
-const ramen = document.querySelector('.ramen');
-
-thirtyYearsSection.addEventListener('click', () => {
-    count++;
-    ramen.classList.add('.assignRotation');
-})
